@@ -1,0 +1,302 @@
+[
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/raw_node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_fontawesome5_solid.ttf.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/raw/node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_fontawesome5_solid.ttf"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.beachfinder.reactnative.app-main-63:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.beachfinder.reactnative.app-main-63:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/drawable-xxhdpi_node_modules_reactnavigation_elements_lib_module_assets_closeicon.png.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/drawable-xxhdpi/node_modules_reactnavigation_elements_lib_module_assets_closeicon.png"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/drawable-xhdpi_node_modules_reactnavigation_elements_lib_module_assets_backicon.png.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/drawable-xhdpi/node_modules_reactnavigation_elements_lib_module_assets_backicon.png"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/drawable-xxxhdpi_node_modules_reactnavigation_elements_lib_module_assets_closeicon.png.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/drawable-xxxhdpi/node_modules_reactnavigation_elements_lib_module_assets_closeicon.png"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/drawable-mdpi_node_modules_reactnavigation_elements_lib_module_assets_backiconmask.png.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/drawable-mdpi/node_modules_reactnavigation_elements_lib_module_assets_backiconmask.png"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/raw_node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_fontisto.ttf.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/raw/node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_fontisto.ttf"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.beachfinder.reactnative.app-main-63:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/raw_node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_simplelineicons.ttf.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/raw/node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_simplelineicons.ttf"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/raw_node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_fontawesome5_brands.ttf.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/raw/node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_fontawesome5_brands.ttf"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.beachfinder.reactnative.app-main-63:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/drawable-xxxhdpi_node_modules_reactnavigation_elements_lib_module_assets_searchicon.png.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/drawable-xxxhdpi/node_modules_reactnavigation_elements_lib_module_assets_searchicon.png"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/raw_node_modules_expogooglefonts_leaguespartan_leaguespartan_700bold.ttf.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/raw/node_modules_expogooglefonts_leaguespartan_leaguespartan_700bold.ttf"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/raw_node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_foundation.ttf.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/raw/node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_foundation.ttf"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/drawable-xhdpi_splashscreen_logo.png.flat",
+        "source": "com.beachfinder.reactnative.app-main-63:/drawable-xhdpi/splashscreen_logo.png"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/raw_node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_antdesign.ttf.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/raw/node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_antdesign.ttf"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/drawable-mdpi_node_modules_exporouter_assets_pkg.png.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/drawable-mdpi/node_modules_exporouter_assets_pkg.png"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/raw_node_modules_expogooglefonts_leaguespartan_leaguespartan_600semibold.ttf.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/raw/node_modules_expogooglefonts_leaguespartan_leaguespartan_600semibold.ttf"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/drawable-mdpi_node_modules_exporouter_assets_forward.png.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/drawable-mdpi/node_modules_exporouter_assets_forward.png"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.beachfinder.reactnative.app-main-63:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.beachfinder.reactnative.app-main-63:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/drawable-mdpi_node_modules_exporouter_assets_file.png.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/drawable-mdpi/node_modules_exporouter_assets_file.png"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/raw_node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_evilicons.ttf.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/raw/node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_evilicons.ttf"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/raw_node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_materialicons.ttf.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/raw/node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_materialicons.ttf"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/drawable-xhdpi_node_modules_reactnavigation_elements_lib_module_assets_searchicon.png.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/drawable-xhdpi/node_modules_reactnavigation_elements_lib_module_assets_searchicon.png"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/drawable-xxhdpi_node_modules_reactnavigation_elements_lib_module_assets_backicon.png.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/drawable-xxhdpi/node_modules_reactnavigation_elements_lib_module_assets_backicon.png"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/drawable-xxhdpi_node_modules_reactnavigation_elements_lib_module_assets_searchicon.png.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/drawable-xxhdpi/node_modules_reactnavigation_elements_lib_module_assets_searchicon.png"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/drawable-mdpi_node_modules_exporouter_assets_unmatched.png.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/drawable-mdpi/node_modules_exporouter_assets_unmatched.png"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/drawable-mdpi_node_modules_reactnavigation_elements_lib_module_assets_searchicon.png.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/drawable-mdpi/node_modules_reactnavigation_elements_lib_module_assets_searchicon.png"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.beachfinder.reactnative.app-main-63:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/raw_node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_fontawesome5_regular.ttf.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/raw/node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_fontawesome5_regular.ttf"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/raw_node_modules_expogooglefonts_leaguespartan_leaguespartan_800extrabold.ttf.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/raw/node_modules_expogooglefonts_leaguespartan_leaguespartan_800extrabold.ttf"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/drawable-xhdpi_node_modules_reactnavigation_elements_lib_module_assets_closeicon.png.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/drawable-xhdpi/node_modules_reactnavigation_elements_lib_module_assets_closeicon.png"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/drawable-hdpi_splashscreen_logo.png.flat",
+        "source": "com.beachfinder.reactnative.app-main-63:/drawable-hdpi/splashscreen_logo.png"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/raw_node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_fontawesome6_brands.ttf.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/raw/node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_fontawesome6_brands.ttf"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.beachfinder.reactnative.app-main-63:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.beachfinder.reactnative.app-main-63:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/raw_node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_materialcommunityicons.ttf.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/raw/node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_materialcommunityicons.ttf"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/raw_node_modules_expogooglefonts_leaguespartan_leaguespartan_300light.ttf.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/raw/node_modules_expogooglefonts_leaguespartan_leaguespartan_300light.ttf"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/raw_node_modules_expogooglefonts_leaguespartan_leaguespartan_900black.ttf.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/raw/node_modules_expogooglefonts_leaguespartan_leaguespartan_900black.ttf"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/raw_node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_octicons.ttf.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/raw/node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_octicons.ttf"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.beachfinder.reactnative.app-main-63:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/drawable-xxxhdpi_splashscreen_logo.png.flat",
+        "source": "com.beachfinder.reactnative.app-main-63:/drawable-xxxhdpi/splashscreen_logo.png"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/drawable-mdpi_splashscreen_logo.png.flat",
+        "source": "com.beachfinder.reactnative.app-main-63:/drawable-mdpi/splashscreen_logo.png"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.beachfinder.reactnative.app-main-63:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/drawable-mdpi_node_modules_exporouter_assets_error.png.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/drawable-mdpi/node_modules_exporouter_assets_error.png"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.beachfinder.reactnative.app-main-63:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/drawable-xxxhdpi_node_modules_reactnavigation_elements_lib_module_assets_backicon.png.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/drawable-xxxhdpi/node_modules_reactnavigation_elements_lib_module_assets_backicon.png"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/drawable-xxxhdpi_node_modules_reactnavigation_elements_lib_module_assets_clearicon.png.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/drawable-xxxhdpi/node_modules_reactnavigation_elements_lib_module_assets_clearicon.png"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.beachfinder.reactnative.app-main-63:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/raw_node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_fontawesome6_regular.ttf.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/raw/node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_fontawesome6_regular.ttf"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/raw_node_modules_expogooglefonts_leaguespartan_leaguespartan_100thin.ttf.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/raw/node_modules_expogooglefonts_leaguespartan_leaguespartan_100thin.ttf"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/raw_node_modules_expogooglefonts_leaguespartan_leaguespartan_200extralight.ttf.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/raw/node_modules_expogooglefonts_leaguespartan_leaguespartan_200extralight.ttf"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.beachfinder.reactnative.app-main-63:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/drawable-mdpi_node_modules_reactnavigation_elements_lib_module_assets_clearicon.png.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/drawable-mdpi/node_modules_reactnavigation_elements_lib_module_assets_clearicon.png"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.beachfinder.reactnative.app-main-63:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/drawable-mdpi_node_modules_exporouter_assets_sitemap.png.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/drawable-mdpi/node_modules_exporouter_assets_sitemap.png"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/raw_node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_feather.ttf.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/raw/node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_feather.ttf"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/drawable_rn_edit_text_material.xml.flat",
+        "source": "com.beachfinder.reactnative.app-main-63:/drawable/rn_edit_text_material.xml"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/raw_node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_zocial.ttf.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/raw/node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_zocial.ttf"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.beachfinder.reactnative.app-main-63:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.beachfinder.reactnative.app-main-63:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/drawable-xxhdpi_splashscreen_logo.png.flat",
+        "source": "com.beachfinder.reactnative.app-main-63:/drawable-xxhdpi/splashscreen_logo.png"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/drawable-mdpi_node_modules_reactnavigation_elements_lib_module_assets_closeicon.png.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/drawable-mdpi/node_modules_reactnavigation_elements_lib_module_assets_closeicon.png"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/raw_node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_fontawesome6_solid.ttf.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/raw/node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_fontawesome6_solid.ttf"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/drawable-xhdpi_node_modules_reactnavigation_elements_lib_module_assets_clearicon.png.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/drawable-xhdpi/node_modules_reactnavigation_elements_lib_module_assets_clearicon.png"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/raw_node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_entypo.ttf.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/raw/node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_entypo.ttf"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.beachfinder.reactnative.app-main-63:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/raw_node_modules_expogooglefonts_leaguespartan_leaguespartan_500medium.ttf.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/raw/node_modules_expogooglefonts_leaguespartan_leaguespartan_500medium.ttf"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/drawable-xxhdpi_node_modules_reactnavigation_elements_lib_module_assets_clearicon.png.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/drawable-xxhdpi/node_modules_reactnavigation_elements_lib_module_assets_clearicon.png"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/raw_node_modules_expogooglefonts_leaguespartan_leaguespartan_400regular.ttf.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/raw/node_modules_expogooglefonts_leaguespartan_leaguespartan_400regular.ttf"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/raw_node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_fontawesome.ttf.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/raw/node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_fontawesome.ttf"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/drawable-mdpi_node_modules_reactnavigation_elements_lib_module_assets_backicon.png.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/drawable-mdpi/node_modules_reactnavigation_elements_lib_module_assets_backicon.png"
+    },
+    {
+        "merged": "com.beachfinder.reactnative.app-release-71:/raw_node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_ionicons.ttf.flat",
+        "source": "com.beachfinder.reactnative.app-res-65:/raw/node_modules_expo_vectoricons_build_vendor_reactnativevectoricons_fonts_ionicons.ttf"
+    }
+]

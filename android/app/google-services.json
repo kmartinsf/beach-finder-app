@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "634499061898",
+    "project_id": "beach-finder-504c0",
+    "storage_bucket": "beach-finder-504c0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634499061898:android:4bc0f03993da3cbe73b573",
+        "android_client_info": {
+          "package_name": "com.beachfinder.reactnative"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr8kHx_bfpE-cQg-R10Y3ycSqcC3Dja9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,992 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:1:1-32:12
+INJECTED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:1:1-32:12
+INJECTED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:1:1-32:12
+INJECTED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:1:1-32:12
+MERGED from [:expo] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-gesture-handler] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-safe-area-context] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-screens] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-screens\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-webview] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:2:1-19:12
+MERGED from [:react-native-async-storage_async-storage] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-firebase_app] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:2:1-30:12
+MERGED from [:react-native-config] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-config\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-reanimated] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-reanimated\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:expo-asset] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-asset\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:expo-blur] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-blur\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:expo-constants] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-constants\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:expo-file-system] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:2:1-33:12
+MERGED from [:expo-font] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-font\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:expo-haptics] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-haptics\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:2:1-9:12
+MERGED from [:expo-keep-awake] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-keep-awake\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:expo-linking] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-linking\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:expo-splash-screen] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-splash-screen\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:expo-system-ui] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-system-ui\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:expo-web-browser] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-web-browser\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:2:1-15:12
+MERGED from [:expo-modules-core] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:2:1-18:12
+MERGED from [com.facebook.react:react-android:0.76.8] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\17c7986915553033945c96cbc0534601\transformed\react-android-0.76.8-release\AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.gms:play-services-auth:21.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\76acf098b5da9b6c0226470cb9d2dc3c\transformed\play-services-auth-21.3.0\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.material:material:1.6.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\c33abf9e8e16248107b605fed461965d\transformed\material-1.6.1\AndroidManifest.xml:17:1-26:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\b6ec865b22e9c0ea568f46ffac172794\transformed\play-services-auth-api-phone-18.0.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\9e41ce0451907e91442622461bffe4b9\transformed\play-services-auth-base-18.0.10\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\5b0a46488e632f7bc116aae88f28355d\transformed\play-services-fido-20.0.1\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-analytics:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\5a09109e72b012e37c49ca910eb074ab\transformed\firebase-analytics-22.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\8ee7c41a6bef6a0d665fd406fe3aade8\transformed\play-services-measurement-sdk-22.4.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\585321bdab24c12146ded36707c3f103\transformed\play-services-measurement-impl-22.4.0\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\a63736bfe5973d429cb03ec0eca13239\transformed\play-services-base-18.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\b5c0c5cc1882a58e3b38344d7a2d9e9d\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\33d59135cc0e3980e7618a30b59b366f\transformed\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.core:core-splashscreen:1.2.0-alpha02] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\9866fd6b60d908395441445a84f84794\transformed\core-splashscreen-1.2.0-alpha02\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\aa6082b8cf73e86e63edd63d336b5e4f\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7758590f7019ebb031e193803b04e590\transformed\appcompat-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\59f4a8ab76f32df04a5278061198d02c\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d805a7a2301ea36d4fb83493a5bf0a63\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7afd772d5b41826353880fa5691609be\transformed\firebase-installations-18.0.0\AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7197adca527eb2666c37ed10cf56201a\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\f77a3469b11cf92a07d0d6ce44cf75c8\transformed\firebase-common-21.0.0\AndroidManifest.xml:15:1-41:12
+MERGED from [androidx.compose.foundation:foundation-android:1.7.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\c174d1447b58fb5a58101b8582c1cdf5\transformed\foundation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\22d6cb74b35ddd95b45ed907e8185b97\transformed\foundation-layout-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.7.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\149e647de7699a06ab0a1f8964422d9e\transformed\animation-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.7.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\1aef5f888419caa0891fb2d3afe34b17\transformed\animation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\e216ceb4efae3e1aeb1c757ce2589a03\transformed\ui-unit-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\58faf232d85d2795f32c1430f258c17a\transformed\ui-graphics-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\f0a1d94344c837fd775caa92b23418c3\transformed\ui-geometry-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.7.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\bcfbbd6f2ed5a20009880368d4b2f5dc\transformed\ui-util-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.7.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\89676ac053970f8bdf64a99be93f47fc\transformed\ui-text-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.7.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\0bc333b9f00b01b0d1db59e793cb015e\transformed\ui-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\9fcfab117c716682fc33feec389fc506\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\563417aaa61c74da20727ddc2c3d169b\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\c7a11fcad9c1d4b95f6a152f98482ecf\transformed\play-services-stats-17.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\8d2d43da6b6da3642805d2ec0862322d\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.1.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\a1ec05d31f691848f34285f16f73f621\transformed\loader-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\f95056a247fadc1cd0906683b5bd3fa6\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\26022e544f02c8afdf1f204051c55075\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.activity:activity-ktx:1.7.2] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\b9110bb5782979bfb98a608a63292e84\transformed\activity-ktx-1.7.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.7.2] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\67b953056ac661ef0f45107f4d5349c8\transformed\activity-1.7.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\33f30907c474509bf3dff8d078f74837\transformed\coordinatorlayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d46fc98336ef485b6671f31cf7b8acc7\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.webkit:webkit:1.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\723c0ba09e7739688dce28216b0ef923\transformed\webkit-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.1.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\0fbdcba7ee260ab79519f7fe7f7ffd72\transformed\autofill-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:animated-gif:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\8beba469e1ef5c6c7c4803fd58a909a1\transformed\animated-gif-3.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:webpsupport:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\97101115386dbf8562cd788df66bfad3\transformed\webpsupport-3.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:fresco:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\112bd521664f63115311a8f6d11fb99e\transformed\fresco-3.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\67e05dc5aa2bc092966026156f9107f0\transformed\imagepipeline-okhttp3-3.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:animated-base:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\c94ae5532170a57781acc8c30c199462\transformed\animated-base-3.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:animated-drawable:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\afd03acf452e39af6d5efe4a904b8ad1\transformed\animated-drawable-3.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:vito-options:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\0096631a435183f69cfebbcfc4efde6a\transformed\vito-options-3.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:drawee:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\14fb35108cc80b943a1f1bb114920be2\transformed\drawee-3.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:nativeimagefilters:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\2e8d65a01b18f5309ad3fe76b696b2fd\transformed\nativeimagefilters-3.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:memory-type-native:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\9599439059e4ca6dab099e077dc97a9d\transformed\memory-type-native-3.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:memory-type-java:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\bfc7e3f4eff081a325f54ccec1377205\transformed\memory-type-java-3.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:imagepipeline-native:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\cde143639cad38491c59c8943b5a2658\transformed\imagepipeline-native-3.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\95fab36307a6a81ed96ee3dff00ad5f6\transformed\memory-type-ashmem-3.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:imagepipeline:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\1b48ab0d419501b51dc0b2705f13b84c\transformed\imagepipeline-3.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\6bda6332dd391f2089c48a370ba06d31\transformed\nativeimagetranscoder-3.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:imagepipeline-base:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\95731f7e1bf5c4233d2ce10cd8d69d2b\transformed\imagepipeline-base-3.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:middleware:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\6b91af2034e1584a0ba9dc2455f4d8ed\transformed\middleware-3.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:ui-common:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fa590f6680cafa41b9e75c2a533e9dab\transformed\ui-common-3.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:soloader:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\0f8bcf8b3a20da19afccbe973d6ebe2a\transformed\soloader-3.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:fbcore:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\b4070701c5fb23d6e3f470af327f5ac2\transformed\fbcore-3.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.1.0-beta11] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\864b8f7a2e12103626be5ce947a8f82d\transformed\ads-adservices-java-1.1.0-beta11\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\4a03db92f2bb8fb63975ac715b9b5819\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\a66c2e7ef08aa046651424af0c092c2d\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\23ec4aea4d7144a68aa3a962889b5492\transformed\core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.browser:browser:1.6.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\8770f399c2eb1807baf8ec197d8b40da\transformed\browser-1.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\986fa26a2e51937c15cd394d68d41d1c\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\f28317861c8ef8f870a445914c117e82\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\2c839912e5e01a4cc45ed08054d5a235\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\c822bb1a7ec1edff87176f8139412e9a\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\850078a374cbb4d32cc258e1f94452e2\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\a321aba0ff84a83f08107a686e009488\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\cb11da5e2edbd14a6b0678bb0c92de80\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\10c6238628838811c5a732f3ea1bab26\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fdcc9d3e2908045f8d491de2c9d6e872\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\0619c6e873d92aa7576aa8487996c704\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\36ad6704f9af816f46d4573591a71deb\transformed\graphics-path-1.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.13.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\649dc411457803614181aae34e38aa46\transformed\core-1.13.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\88313d1758caaff9b2fd58e6fbd69a9f\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\891b310e69cbe2784d9a4eabe4a75e28\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\49cb70f685bce0c8e520c85f81d3bf9f\transformed\lifecycle-viewmodel-2.8.3\AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\40015de0cf3caac237be2edd35902a44\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\b405f583189f49c2e9d17aceec48ac6e\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\17249aa13fee1fab17310ff29c785cd0\transformed\lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\5934ceabf19a80006b43ca80ff927210\transformed\lifecycle-viewmodel-ktx-2.8.3\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\9256a3f52e75e6ff115fd28f3db6b663\transformed\lifecycle-viewmodel-savedstate-2.8.3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\0ad95e1ed815405d4b58ed93786e7982\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\c748d24cb145d97dd6bdd7c3bfb54b6b\transformed\lifecycle-livedata-core-ktx-2.8.3\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\f4dc3b437002f3c36e06467bea2dea80\transformed\lifecycle-livedata-core-2.8.3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\022151d80116d7f070920c677a78c48a\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\3cbe861830290e75fcd50d68e3d31a32\transformed\runtime-saveable-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\81e8a9e410b84ea1f041d2c22143cc18\transformed\runtime-release\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\5499c5031348ffe0ad918f4a9eb2132e\transformed\firebase-installations-interop-17.1.1\AndroidManifest.xml:15:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\0efab3e73695461c45738e9f14932fee\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\5f8ea5a9c165f388eca5c4df8adb4c0c\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\e6bde6effca665c326d1536bf9f459b5\transformed\play-services-measurement-sdk-api-22.4.0\AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-measurement-base:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\221508840653eddaf5379b89702265ab\transformed\play-services-measurement-base-22.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\6a811e57ee4d16d206b55c9b079d8994\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.5.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\1d2e6a44c8d9a9fdf8102a656f6ee090\transformed\play-services-basement-18.5.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.6.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\3e5da819715aed2f16ad2416ba99ac66\transformed\fragment-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\da0a5ac14d5fcac2b62dec973a5c9fac\transformed\fragment-ktx-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\5af87c39c5770ac08eea067414661abc\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\26d44f985cd1e363e960d44fb5020c57\transformed\tracing-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\9423056f046b3139c80ccda84d466e41\transformed\tracing-ktx-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.react:hermes-android:0.76.8] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\ce4dc8b271933d42258f348acd25cdc3\transformed\hermes-android-0.76.8-release\AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.Dimezis:BlurView:version-2.0.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7db60383045a034316ac99173dbf9b6\transformed\BlurView-version-2.0.6\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\58a69ba6ee33e20b16f20743794cad1a\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\76aac3a1f2d87029ccd690c9ab01e51e\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\b0ec68dbd088888eb47cd49293bbc1ec\transformed\firebase-components-18.0.0\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\5556edbd3a76eab704683b634c411576\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\94f9cee0b3741235208ee71cd0af99c5\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\c1a0a005cbde35695fe854f6a029970f\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\699113e1af99ec6cfb93cacf5d42230c\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d6147ea728f6e29b251555e184102c86\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\21b803f838010d581993f2ecdaf1cc31\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:vito-renderer:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\1230bf26cbc94c6ca80d4ea2ebfdf60e\transformed\vito-renderer-3.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\b6b69bdf4fd2334ba88dc6e7b76f643f\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fbjni:fbjni:0.6.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\c7cbb0d681cc93d69e6e1f75cb606684\transformed\fbjni-0.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.soloader:soloader:0.12.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\ea87c9c73d569a39ee5a5e9407672245\transformed\soloader-0.12.1\AndroidManifest.xml:2:1-17:12
+	package
+		INJECTED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:2:3-64
+MERGED from [:expo-file-system] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:8:5-67
+MERGED from [:expo-file-system] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\585321bdab24c12146ded36707c3f103\transformed\play-services-measurement-impl-22.4.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\585321bdab24c12146ded36707c3f103\transformed\play-services-measurement-impl-22.4.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d805a7a2301ea36d4fb83493a5bf0a63\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d805a7a2301ea36d4fb83493a5bf0a63\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7afd772d5b41826353880fa5691609be\transformed\firebase-installations-18.0.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7afd772d5b41826353880fa5691609be\transformed\firebase-installations-18.0.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\e6bde6effca665c326d1536bf9f459b5\transformed\play-services-measurement-sdk-api-22.4.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\e6bde6effca665c326d1536bf9f459b5\transformed\play-services-measurement-sdk-api-22.4.0\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:2:20-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:3:3-77
+MERGED from [:expo-file-system] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:10:5-80
+MERGED from [:expo-file-system] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:3:20-75
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:4:3-75
+	android:name
+		ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:4:20-73
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:5:3-63
+MERGED from [:expo-haptics] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-haptics\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:7:5-66
+MERGED from [:expo-haptics] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-haptics\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:7:5-66
+	android:name
+		ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:5:20-61
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:6:3-78
+MERGED from [:expo-file-system] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:9:5-81
+MERGED from [:expo-file-system] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:6:20-76
+queries
+ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:7:3-13:13
+MERGED from [:expo-file-system] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:12:5-18:15
+MERGED from [:expo-file-system] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:12:5-18:15
+MERGED from [:expo-web-browser] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-web-browser\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:7:5-13:15
+MERGED from [:expo-web-browser] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-web-browser\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:7:5-13:15
+intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:scheme:https
+ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:8:5-12:14
+action#android.intent.action.VIEW
+ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:9:7-58
+	android:name
+		ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:9:15-56
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:10:7-67
+	android:name
+		ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:10:17-65
+data
+ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:11:7-37
+	android:scheme
+		ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:11:13-35
+application
+ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:14:3-31:17
+INJECTED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:14:3-31:17
+MERGED from [:react-native-webview] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:7:5-17:19
+MERGED from [:react-native-webview] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:7:5-17:19
+MERGED from [:react-native-firebase_app] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:8:5-28:19
+MERGED from [:react-native-firebase_app] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:8:5-28:19
+MERGED from [:expo-file-system] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:20:5-31:19
+MERGED from [:expo-file-system] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:20:5-31:19
+MERGED from [:expo-modules-core] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:8:5-16:19
+MERGED from [:expo-modules-core] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-auth:21.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\76acf098b5da9b6c0226470cb9d2dc3c\transformed\play-services-auth-21.3.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:21.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\76acf098b5da9b6c0226470cb9d2dc3c\transformed\play-services-auth-21.3.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.material:material:1.6.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\c33abf9e8e16248107b605fed461965d\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.6.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\c33abf9e8e16248107b605fed461965d\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\5b0a46488e632f7bc116aae88f28355d\transformed\play-services-fido-20.0.1\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\5b0a46488e632f7bc116aae88f28355d\transformed\play-services-fido-20.0.1\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-analytics:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\5a09109e72b012e37c49ca910eb074ab\transformed\firebase-analytics-22.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\5a09109e72b012e37c49ca910eb074ab\transformed\firebase-analytics-22.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\8ee7c41a6bef6a0d665fd406fe3aade8\transformed\play-services-measurement-sdk-22.4.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\8ee7c41a6bef6a0d665fd406fe3aade8\transformed\play-services-measurement-sdk-22.4.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\585321bdab24c12146ded36707c3f103\transformed\play-services-measurement-impl-22.4.0\AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\585321bdab24c12146ded36707c3f103\transformed\play-services-measurement-impl-22.4.0\AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\a63736bfe5973d429cb03ec0eca13239\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\a63736bfe5973d429cb03ec0eca13239\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\33d59135cc0e3980e7618a30b59b366f\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\33d59135cc0e3980e7618a30b59b366f\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d805a7a2301ea36d4fb83493a5bf0a63\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d805a7a2301ea36d4fb83493a5bf0a63\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7afd772d5b41826353880fa5691609be\transformed\firebase-installations-18.0.0\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7afd772d5b41826353880fa5691609be\transformed\firebase-installations-18.0.0\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7197adca527eb2666c37ed10cf56201a\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7197adca527eb2666c37ed10cf56201a\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\f77a3469b11cf92a07d0d6ce44cf75c8\transformed\firebase-common-21.0.0\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\f77a3469b11cf92a07d0d6ce44cf75c8\transformed\firebase-common-21.0.0\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\c7a11fcad9c1d4b95f6a152f98482ecf\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\c7a11fcad9c1d4b95f6a152f98482ecf\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\26022e544f02c8afdf1f204051c55075\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\26022e544f02c8afdf1f204051c55075\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\4a03db92f2bb8fb63975ac715b9b5819\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\4a03db92f2bb8fb63975ac715b9b5819\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.13.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\649dc411457803614181aae34e38aa46\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\649dc411457803614181aae34e38aa46\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\0ad95e1ed815405d4b58ed93786e7982\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\0ad95e1ed815405d4b58ed93786e7982\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\0efab3e73695461c45738e9f14932fee\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\0efab3e73695461c45738e9f14932fee\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\5f8ea5a9c165f388eca5c4df8adb4c0c\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\5f8ea5a9c165f388eca5c4df8adb4c0c\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\221508840653eddaf5379b89702265ab\transformed\play-services-measurement-base-22.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\221508840653eddaf5379b89702265ab\transformed\play-services-measurement-base-22.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\6a811e57ee4d16d206b55c9b079d8994\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\6a811e57ee4d16d206b55c9b079d8994\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.5.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\1d2e6a44c8d9a9fdf8102a656f6ee090\transformed\play-services-basement-18.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.5.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\1d2e6a44c8d9a9fdf8102a656f6ee090\transformed\play-services-basement-18.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\5af87c39c5770ac08eea067414661abc\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\5af87c39c5770ac08eea067414661abc\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [com.github.Dimezis:BlurView:version-2.0.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7db60383045a034316ac99173dbf9b6\transformed\BlurView-version-2.0.6\AndroidManifest.xml:9:5-20
+MERGED from [com.github.Dimezis:BlurView:version-2.0.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7db60383045a034316ac99173dbf9b6\transformed\BlurView-version-2.0.6\AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\94f9cee0b3741235208ee71cd0af99c5\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\94f9cee0b3741235208ee71cd0af99c5\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.facebook.soloader:soloader:0.12.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\ea87c9c73d569a39ee5a5e9407672245\transformed\soloader-0.12.1\AndroidManifest.xml:11:5-15:19
+MERGED from [com.facebook.soloader:soloader:0.12.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\ea87c9c73d569a39ee5a5e9407672245\transformed\soloader-0.12.1\AndroidManifest.xml:11:5-15:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\649dc411457803614181aae34e38aa46\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:14:221-247
+	android:label
+		ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:14:48-80
+	android:roundIcon
+		ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:14:116-161
+	android:icon
+		ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:14:81-115
+	android:allowBackup
+		ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:14:162-188
+	android:theme
+		ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:14:189-220
+	android:name
+		ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:14:16-47
+meta-data#expo.modules.updates.ENABLED
+ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:15:5-83
+	android:value
+		ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:15:60-81
+	android:name
+		ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:15:16-59
+meta-data#expo.modules.updates.EXPO_UPDATES_CHECK_ON_LAUNCH
+ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:16:5-105
+	android:value
+		ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:16:81-103
+	android:name
+		ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:16:16-80
+meta-data#expo.modules.updates.EXPO_UPDATES_LAUNCH_WAIT_MS
+ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:17:5-99
+	android:value
+		ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:17:80-97
+	android:name
+		ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:17:16-79
+activity#com.beachfinder.reactnative.MainActivity
+ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:18:5-30:16
+	android:screenOrientation
+		ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:18:280-316
+	android:launchMode
+		ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:18:135-166
+	android:windowSoftInputMode
+		ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:18:167-209
+	android:exported
+		ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:18:256-279
+	android:configChanges
+		ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:18:44-134
+	android:theme
+		ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:18:210-255
+	android:name
+		ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:18:15-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:19:7-22:23
+action#android.intent.action.MAIN
+ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:20:9-60
+	android:name
+		ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:20:17-58
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:21:9-68
+	android:name
+		ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:21:19-66
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:com.anonymous.beachfinderapp+data:scheme:myapp
+ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:23:7-29:23
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:25:9-67
+	android:name
+		ADDED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:25:19-65
+uses-sdk
+INJECTED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml
+MERGED from [:expo] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:expo] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-gesture-handler] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-gesture-handler] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-safe-area-context] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-safe-area-context] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-screens] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-screens\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-screens] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-screens\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-webview] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-webview] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-async-storage_async-storage] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-async-storage_async-storage] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-firebase_app] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:6:5-44
+MERGED from [:react-native-firebase_app] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:6:5-44
+MERGED from [:react-native-config] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-config\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-config] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-config\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-reanimated] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-reanimated\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-reanimated] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-reanimated\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:expo-asset] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-asset\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:expo-asset] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-asset\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:expo-blur] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-blur\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:expo-blur] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-blur\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:expo-constants] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-constants\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:expo-constants] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-constants\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:expo-file-system] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:6:5-44
+MERGED from [:expo-file-system] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:6:5-44
+MERGED from [:expo-font] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-font\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:expo-font] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-font\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:expo-haptics] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-haptics\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:expo-haptics] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-haptics\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:expo-keep-awake] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-keep-awake\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:expo-keep-awake] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-keep-awake\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:expo-linking] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-linking\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:expo-linking] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-linking\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:expo-splash-screen] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-splash-screen\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:expo-splash-screen] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-splash-screen\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:expo-system-ui] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-system-ui\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:expo-system-ui] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-system-ui\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:expo-web-browser] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-web-browser\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:expo-web-browser] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-web-browser\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:expo-modules-core] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:6:5-44
+MERGED from [:expo-modules-core] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:6:5-44
+MERGED from [com.facebook.react:react-android:0.76.8] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\17c7986915553033945c96cbc0534601\transformed\react-android-0.76.8-release\AndroidManifest.xml:10:5-44
+MERGED from [com.facebook.react:react-android:0.76.8] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\17c7986915553033945c96cbc0534601\transformed\react-android-0.76.8-release\AndroidManifest.xml:10:5-44
+MERGED from [com.google.android.gms:play-services-auth:21.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\76acf098b5da9b6c0226470cb9d2dc3c\transformed\play-services-auth-21.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:21.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\76acf098b5da9b6c0226470cb9d2dc3c\transformed\play-services-auth-21.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.6.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\c33abf9e8e16248107b605fed461965d\transformed\material-1.6.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.6.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\c33abf9e8e16248107b605fed461965d\transformed\material-1.6.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\b6ec865b22e9c0ea568f46ffac172794\transformed\play-services-auth-api-phone-18.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\b6ec865b22e9c0ea568f46ffac172794\transformed\play-services-auth-api-phone-18.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\9e41ce0451907e91442622461bffe4b9\transformed\play-services-auth-base-18.0.10\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\9e41ce0451907e91442622461bffe4b9\transformed\play-services-auth-base-18.0.10\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\5b0a46488e632f7bc116aae88f28355d\transformed\play-services-fido-20.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\5b0a46488e632f7bc116aae88f28355d\transformed\play-services-fido-20.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\5a09109e72b012e37c49ca910eb074ab\transformed\firebase-analytics-22.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\5a09109e72b012e37c49ca910eb074ab\transformed\firebase-analytics-22.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\8ee7c41a6bef6a0d665fd406fe3aade8\transformed\play-services-measurement-sdk-22.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\8ee7c41a6bef6a0d665fd406fe3aade8\transformed\play-services-measurement-sdk-22.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\585321bdab24c12146ded36707c3f103\transformed\play-services-measurement-impl-22.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\585321bdab24c12146ded36707c3f103\transformed\play-services-measurement-impl-22.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\a63736bfe5973d429cb03ec0eca13239\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\a63736bfe5973d429cb03ec0eca13239\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\b5c0c5cc1882a58e3b38344d7a2d9e9d\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\b5c0c5cc1882a58e3b38344d7a2d9e9d\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\33d59135cc0e3980e7618a30b59b366f\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\33d59135cc0e3980e7618a30b59b366f\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-splashscreen:1.2.0-alpha02] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\9866fd6b60d908395441445a84f84794\transformed\core-splashscreen-1.2.0-alpha02\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-splashscreen:1.2.0-alpha02] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\9866fd6b60d908395441445a84f84794\transformed\core-splashscreen-1.2.0-alpha02\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\aa6082b8cf73e86e63edd63d336b5e4f\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\aa6082b8cf73e86e63edd63d336b5e4f\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7758590f7019ebb031e193803b04e590\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7758590f7019ebb031e193803b04e590\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\59f4a8ab76f32df04a5278061198d02c\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\59f4a8ab76f32df04a5278061198d02c\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d805a7a2301ea36d4fb83493a5bf0a63\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d805a7a2301ea36d4fb83493a5bf0a63\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7afd772d5b41826353880fa5691609be\transformed\firebase-installations-18.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7afd772d5b41826353880fa5691609be\transformed\firebase-installations-18.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7197adca527eb2666c37ed10cf56201a\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7197adca527eb2666c37ed10cf56201a\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\f77a3469b11cf92a07d0d6ce44cf75c8\transformed\firebase-common-21.0.0\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\f77a3469b11cf92a07d0d6ce44cf75c8\transformed\firebase-common-21.0.0\AndroidManifest.xml:19:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\c174d1447b58fb5a58101b8582c1cdf5\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\c174d1447b58fb5a58101b8582c1cdf5\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\22d6cb74b35ddd95b45ed907e8185b97\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\22d6cb74b35ddd95b45ed907e8185b97\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\149e647de7699a06ab0a1f8964422d9e\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\149e647de7699a06ab0a1f8964422d9e\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\1aef5f888419caa0891fb2d3afe34b17\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\1aef5f888419caa0891fb2d3afe34b17\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\e216ceb4efae3e1aeb1c757ce2589a03\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\e216ceb4efae3e1aeb1c757ce2589a03\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\58faf232d85d2795f32c1430f258c17a\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\58faf232d85d2795f32c1430f258c17a\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\f0a1d94344c837fd775caa92b23418c3\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\f0a1d94344c837fd775caa92b23418c3\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\bcfbbd6f2ed5a20009880368d4b2f5dc\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\bcfbbd6f2ed5a20009880368d4b2f5dc\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\89676ac053970f8bdf64a99be93f47fc\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\89676ac053970f8bdf64a99be93f47fc\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\0bc333b9f00b01b0d1db59e793cb015e\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\0bc333b9f00b01b0d1db59e793cb015e\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\9fcfab117c716682fc33feec389fc506\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\9fcfab117c716682fc33feec389fc506\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\563417aaa61c74da20727ddc2c3d169b\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\563417aaa61c74da20727ddc2c3d169b\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\c7a11fcad9c1d4b95f6a152f98482ecf\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\c7a11fcad9c1d4b95f6a152f98482ecf\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\8d2d43da6b6da3642805d2ec0862322d\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\8d2d43da6b6da3642805d2ec0862322d\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.1.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\a1ec05d31f691848f34285f16f73f621\transformed\loader-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.1.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\a1ec05d31f691848f34285f16f73f621\transformed\loader-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\f95056a247fadc1cd0906683b5bd3fa6\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\f95056a247fadc1cd0906683b5bd3fa6\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\26022e544f02c8afdf1f204051c55075\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\26022e544f02c8afdf1f204051c55075\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.activity:activity-ktx:1.7.2] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\b9110bb5782979bfb98a608a63292e84\transformed\activity-ktx-1.7.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.7.2] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\b9110bb5782979bfb98a608a63292e84\transformed\activity-ktx-1.7.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.7.2] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\67b953056ac661ef0f45107f4d5349c8\transformed\activity-1.7.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.7.2] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\67b953056ac661ef0f45107f4d5349c8\transformed\activity-1.7.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\33f30907c474509bf3dff8d078f74837\transformed\coordinatorlayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\33f30907c474509bf3dff8d078f74837\transformed\coordinatorlayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d46fc98336ef485b6671f31cf7b8acc7\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d46fc98336ef485b6671f31cf7b8acc7\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\723c0ba09e7739688dce28216b0ef923\transformed\webkit-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\723c0ba09e7739688dce28216b0ef923\transformed\webkit-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\0fbdcba7ee260ab79519f7fe7f7ffd72\transformed\autofill-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\0fbdcba7ee260ab79519f7fe7f7ffd72\transformed\autofill-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:animated-gif:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\8beba469e1ef5c6c7c4803fd58a909a1\transformed\animated-gif-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:animated-gif:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\8beba469e1ef5c6c7c4803fd58a909a1\transformed\animated-gif-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:webpsupport:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\97101115386dbf8562cd788df66bfad3\transformed\webpsupport-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:webpsupport:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\97101115386dbf8562cd788df66bfad3\transformed\webpsupport-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:fresco:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\112bd521664f63115311a8f6d11fb99e\transformed\fresco-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:fresco:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\112bd521664f63115311a8f6d11fb99e\transformed\fresco-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\67e05dc5aa2bc092966026156f9107f0\transformed\imagepipeline-okhttp3-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\67e05dc5aa2bc092966026156f9107f0\transformed\imagepipeline-okhttp3-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:animated-base:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\c94ae5532170a57781acc8c30c199462\transformed\animated-base-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:animated-base:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\c94ae5532170a57781acc8c30c199462\transformed\animated-base-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:animated-drawable:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\afd03acf452e39af6d5efe4a904b8ad1\transformed\animated-drawable-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:animated-drawable:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\afd03acf452e39af6d5efe4a904b8ad1\transformed\animated-drawable-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:vito-options:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\0096631a435183f69cfebbcfc4efde6a\transformed\vito-options-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:vito-options:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\0096631a435183f69cfebbcfc4efde6a\transformed\vito-options-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:drawee:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\14fb35108cc80b943a1f1bb114920be2\transformed\drawee-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:drawee:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\14fb35108cc80b943a1f1bb114920be2\transformed\drawee-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:nativeimagefilters:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\2e8d65a01b18f5309ad3fe76b696b2fd\transformed\nativeimagefilters-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:nativeimagefilters:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\2e8d65a01b18f5309ad3fe76b696b2fd\transformed\nativeimagefilters-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-native:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\9599439059e4ca6dab099e077dc97a9d\transformed\memory-type-native-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-native:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\9599439059e4ca6dab099e077dc97a9d\transformed\memory-type-native-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-java:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\bfc7e3f4eff081a325f54ccec1377205\transformed\memory-type-java-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-java:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\bfc7e3f4eff081a325f54ccec1377205\transformed\memory-type-java-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-native:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\cde143639cad38491c59c8943b5a2658\transformed\imagepipeline-native-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-native:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\cde143639cad38491c59c8943b5a2658\transformed\imagepipeline-native-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-ashmem:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\95fab36307a6a81ed96ee3dff00ad5f6\transformed\memory-type-ashmem-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-ashmem:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\95fab36307a6a81ed96ee3dff00ad5f6\transformed\memory-type-ashmem-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\1b48ab0d419501b51dc0b2705f13b84c\transformed\imagepipeline-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\1b48ab0d419501b51dc0b2705f13b84c\transformed\imagepipeline-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:nativeimagetranscoder:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\6bda6332dd391f2089c48a370ba06d31\transformed\nativeimagetranscoder-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:nativeimagetranscoder:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\6bda6332dd391f2089c48a370ba06d31\transformed\nativeimagetranscoder-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-base:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\95731f7e1bf5c4233d2ce10cd8d69d2b\transformed\imagepipeline-base-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-base:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\95731f7e1bf5c4233d2ce10cd8d69d2b\transformed\imagepipeline-base-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:middleware:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\6b91af2034e1584a0ba9dc2455f4d8ed\transformed\middleware-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:middleware:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\6b91af2034e1584a0ba9dc2455f4d8ed\transformed\middleware-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:ui-common:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fa590f6680cafa41b9e75c2a533e9dab\transformed\ui-common-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:ui-common:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fa590f6680cafa41b9e75c2a533e9dab\transformed\ui-common-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:soloader:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\0f8bcf8b3a20da19afccbe973d6ebe2a\transformed\soloader-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:soloader:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\0f8bcf8b3a20da19afccbe973d6ebe2a\transformed\soloader-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:fbcore:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\b4070701c5fb23d6e3f470af327f5ac2\transformed\fbcore-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:fbcore:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\b4070701c5fb23d6e3f470af327f5ac2\transformed\fbcore-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.1.0-beta11] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\864b8f7a2e12103626be5ce947a8f82d\transformed\ads-adservices-java-1.1.0-beta11\AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.1.0-beta11] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\864b8f7a2e12103626be5ce947a8f82d\transformed\ads-adservices-java-1.1.0-beta11\AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\4a03db92f2bb8fb63975ac715b9b5819\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:20:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\4a03db92f2bb8fb63975ac715b9b5819\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\a66c2e7ef08aa046651424af0c092c2d\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\a66c2e7ef08aa046651424af0c092c2d\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\23ec4aea4d7144a68aa3a962889b5492\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\23ec4aea4d7144a68aa3a962889b5492\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.browser:browser:1.6.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\8770f399c2eb1807baf8ec197d8b40da\transformed\browser-1.6.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.browser:browser:1.6.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\8770f399c2eb1807baf8ec197d8b40da\transformed\browser-1.6.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\986fa26a2e51937c15cd394d68d41d1c\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\986fa26a2e51937c15cd394d68d41d1c\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\f28317861c8ef8f870a445914c117e82\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\f28317861c8ef8f870a445914c117e82\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\2c839912e5e01a4cc45ed08054d5a235\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\2c839912e5e01a4cc45ed08054d5a235\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\c822bb1a7ec1edff87176f8139412e9a\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\c822bb1a7ec1edff87176f8139412e9a\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\850078a374cbb4d32cc258e1f94452e2\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\850078a374cbb4d32cc258e1f94452e2\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\a321aba0ff84a83f08107a686e009488\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\a321aba0ff84a83f08107a686e009488\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\cb11da5e2edbd14a6b0678bb0c92de80\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\cb11da5e2edbd14a6b0678bb0c92de80\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\10c6238628838811c5a732f3ea1bab26\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\10c6238628838811c5a732f3ea1bab26\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fdcc9d3e2908045f8d491de2c9d6e872\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fdcc9d3e2908045f8d491de2c9d6e872\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\0619c6e873d92aa7576aa8487996c704\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\0619c6e873d92aa7576aa8487996c704\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\36ad6704f9af816f46d4573591a71deb\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\36ad6704f9af816f46d4573591a71deb\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\649dc411457803614181aae34e38aa46\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\649dc411457803614181aae34e38aa46\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\88313d1758caaff9b2fd58e6fbd69a9f\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\88313d1758caaff9b2fd58e6fbd69a9f\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\891b310e69cbe2784d9a4eabe4a75e28\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\891b310e69cbe2784d9a4eabe4a75e28\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\49cb70f685bce0c8e520c85f81d3bf9f\transformed\lifecycle-viewmodel-2.8.3\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\49cb70f685bce0c8e520c85f81d3bf9f\transformed\lifecycle-viewmodel-2.8.3\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\40015de0cf3caac237be2edd35902a44\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\40015de0cf3caac237be2edd35902a44\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\b405f583189f49c2e9d17aceec48ac6e\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\b405f583189f49c2e9d17aceec48ac6e\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\17249aa13fee1fab17310ff29c785cd0\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\17249aa13fee1fab17310ff29c785cd0\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\5934ceabf19a80006b43ca80ff927210\transformed\lifecycle-viewmodel-ktx-2.8.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\5934ceabf19a80006b43ca80ff927210\transformed\lifecycle-viewmodel-ktx-2.8.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\9256a3f52e75e6ff115fd28f3db6b663\transformed\lifecycle-viewmodel-savedstate-2.8.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\9256a3f52e75e6ff115fd28f3db6b663\transformed\lifecycle-viewmodel-savedstate-2.8.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\0ad95e1ed815405d4b58ed93786e7982\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\0ad95e1ed815405d4b58ed93786e7982\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\c748d24cb145d97dd6bdd7c3bfb54b6b\transformed\lifecycle-livedata-core-ktx-2.8.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\c748d24cb145d97dd6bdd7c3bfb54b6b\transformed\lifecycle-livedata-core-ktx-2.8.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\f4dc3b437002f3c36e06467bea2dea80\transformed\lifecycle-livedata-core-2.8.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\f4dc3b437002f3c36e06467bea2dea80\transformed\lifecycle-livedata-core-2.8.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\022151d80116d7f070920c677a78c48a\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\022151d80116d7f070920c677a78c48a\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\3cbe861830290e75fcd50d68e3d31a32\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\3cbe861830290e75fcd50d68e3d31a32\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\81e8a9e410b84ea1f041d2c22143cc18\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\81e8a9e410b84ea1f041d2c22143cc18\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\5499c5031348ffe0ad918f4a9eb2132e\transformed\firebase-installations-interop-17.1.1\AndroidManifest.xml:17:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\5499c5031348ffe0ad918f4a9eb2132e\transformed\firebase-installations-interop-17.1.1\AndroidManifest.xml:17:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\0efab3e73695461c45738e9f14932fee\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\0efab3e73695461c45738e9f14932fee\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\5f8ea5a9c165f388eca5c4df8adb4c0c\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\5f8ea5a9c165f388eca5c4df8adb4c0c\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\e6bde6effca665c326d1536bf9f459b5\transformed\play-services-measurement-sdk-api-22.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\e6bde6effca665c326d1536bf9f459b5\transformed\play-services-measurement-sdk-api-22.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\221508840653eddaf5379b89702265ab\transformed\play-services-measurement-base-22.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\221508840653eddaf5379b89702265ab\transformed\play-services-measurement-base-22.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\6a811e57ee4d16d206b55c9b079d8994\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\6a811e57ee4d16d206b55c9b079d8994\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.5.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\1d2e6a44c8d9a9fdf8102a656f6ee090\transformed\play-services-basement-18.5.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.5.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\1d2e6a44c8d9a9fdf8102a656f6ee090\transformed\play-services-basement-18.5.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.6.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\3e5da819715aed2f16ad2416ba99ac66\transformed\fragment-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\3e5da819715aed2f16ad2416ba99ac66\transformed\fragment-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\da0a5ac14d5fcac2b62dec973a5c9fac\transformed\fragment-ktx-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\da0a5ac14d5fcac2b62dec973a5c9fac\transformed\fragment-ktx-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\5af87c39c5770ac08eea067414661abc\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\5af87c39c5770ac08eea067414661abc\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\26d44f985cd1e363e960d44fb5020c57\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\26d44f985cd1e363e960d44fb5020c57\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\9423056f046b3139c80ccda84d466e41\transformed\tracing-ktx-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\9423056f046b3139c80ccda84d466e41\transformed\tracing-ktx-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.react:hermes-android:0.76.8] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\ce4dc8b271933d42258f348acd25cdc3\transformed\hermes-android-0.76.8-release\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.react:hermes-android:0.76.8] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\ce4dc8b271933d42258f348acd25cdc3\transformed\hermes-android-0.76.8-release\AndroidManifest.xml:5:5-44
+MERGED from [com.github.Dimezis:BlurView:version-2.0.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7db60383045a034316ac99173dbf9b6\transformed\BlurView-version-2.0.6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.Dimezis:BlurView:version-2.0.6] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7db60383045a034316ac99173dbf9b6\transformed\BlurView-version-2.0.6\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\58a69ba6ee33e20b16f20743794cad1a\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\58a69ba6ee33e20b16f20743794cad1a\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\76aac3a1f2d87029ccd690c9ab01e51e\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\76aac3a1f2d87029ccd690c9ab01e51e\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\b0ec68dbd088888eb47cd49293bbc1ec\transformed\firebase-components-18.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\b0ec68dbd088888eb47cd49293bbc1ec\transformed\firebase-components-18.0.0\AndroidManifest.xml:18:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\5556edbd3a76eab704683b634c411576\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\5556edbd3a76eab704683b634c411576\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\94f9cee0b3741235208ee71cd0af99c5\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\94f9cee0b3741235208ee71cd0af99c5\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\c1a0a005cbde35695fe854f6a029970f\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\c1a0a005cbde35695fe854f6a029970f\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\699113e1af99ec6cfb93cacf5d42230c\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\699113e1af99ec6cfb93cacf5d42230c\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d6147ea728f6e29b251555e184102c86\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d6147ea728f6e29b251555e184102c86\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\21b803f838010d581993f2ecdaf1cc31\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\21b803f838010d581993f2ecdaf1cc31\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:vito-renderer:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\1230bf26cbc94c6ca80d4ea2ebfdf60e\transformed\vito-renderer-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:vito-renderer:3.2.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\1230bf26cbc94c6ca80d4ea2ebfdf60e\transformed\vito-renderer-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\b6b69bdf4fd2334ba88dc6e7b76f643f\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\b6b69bdf4fd2334ba88dc6e7b76f643f\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fbjni:fbjni:0.6.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\c7cbb0d681cc93d69e6e1f75cb606684\transformed\fbjni-0.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fbjni:fbjni:0.6.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\c7cbb0d681cc93d69e6e1f75cb606684\transformed\fbjni-0.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.soloader:soloader:0.12.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\ea87c9c73d569a39ee5a5e9407672245\transformed\soloader-0.12.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.12.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\ea87c9c73d569a39ee5a5e9407672245\transformed\soloader-0.12.1\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		INJECTED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml
+provider#com.reactnativecommunity.webview.RNCWebViewFileProvider
+ADDED from [:react-native-webview] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:8:9-16:20
+	android:grantUriPermissions
+		ADDED from [:react-native-webview] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:12:13-47
+	android:authorities
+		ADDED from [:react-native-webview] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:10:13-64
+	android:exported
+		ADDED from [:react-native-webview] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [:react-native-webview] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:9:13-83
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-webview] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:13:13-15:63
+	android:resource
+		ADDED from [:react-native-webview] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:15:17-60
+	android:name
+		ADDED from [:react-native-webview] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:14:17-67
+meta-data#app_data_collection_default_enabled
+ADDED from [:react-native-firebase_app] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:9:9-11:36
+	android:value
+		ADDED from [:react-native-firebase_app] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:11:13-33
+	android:name
+		ADDED from [:react-native-firebase_app] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:10:13-63
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:react-native-firebase_app] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:13:9-21:19
+MERGED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d805a7a2301ea36d4fb83493a5bf0a63\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d805a7a2301ea36d4fb83493a5bf0a63\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7afd772d5b41826353880fa5691609be\transformed\firebase-installations-18.0.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7afd772d5b41826353880fa5691609be\transformed\firebase-installations-18.0.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7197adca527eb2666c37ed10cf56201a\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7197adca527eb2666c37ed10cf56201a\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\f77a3469b11cf92a07d0d6ce44cf75c8\transformed\firebase-common-21.0.0\AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\f77a3469b11cf92a07d0d6ce44cf75c8\transformed\firebase-common-21.0.0\AndroidManifest.xml:30:9-38:19
+	android:exported
+		ADDED from [:react-native-firebase_app] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:16:13-37
+	tools:targetApi
+		ADDED from [:react-native-firebase_app] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:17:13-32
+	android:directBootAware
+		ADDED from [:react-native-firebase_app] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:15:13-43
+	android:name
+		ADDED from [:react-native-firebase_app] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:14:13-84
+meta-data#com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar
+ADDED from [:react-native-firebase_app] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [:react-native-firebase_app] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [:react-native-firebase_app] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:19:17-120
+provider#io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider
+ADDED from [:react-native-firebase_app] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:23:9-27:38
+	android:authorities
+		ADDED from [:react-native-firebase_app] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:25:13-86
+	android:exported
+		ADDED from [:react-native-firebase_app] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:26:13-37
+	android:initOrder
+		ADDED from [:react-native-firebase_app] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:27:13-35
+	android:name
+		ADDED from [:react-native-firebase_app] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:24:13-88
+intent#action:name:android.intent.action.OPEN_DOCUMENT_TREE
+ADDED from [:expo-file-system] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:15:9-17:18
+action#android.intent.action.OPEN_DOCUMENT_TREE
+ADDED from [:expo-file-system] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:16:13-79
+	android:name
+		ADDED from [:expo-file-system] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:16:21-76
+provider#expo.modules.filesystem.FileSystemFileProvider
+ADDED from [:expo-file-system] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:21:9-30:20
+	android:grantUriPermissions
+		ADDED from [:expo-file-system] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:25:13-47
+	android:authorities
+		ADDED from [:expo-file-system] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:23:13-74
+	android:exported
+		ADDED from [:expo-file-system] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:24:13-37
+	tools:replace
+		ADDED from [:expo-file-system] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:26:13-48
+	android:name
+		ADDED from [:expo-file-system] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:22:13-74
+intent#action:name:android.support.customtabs.action.CustomTabsService
+ADDED from [:expo-web-browser] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-web-browser\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:8:9-12:18
+action#android.support.customtabs.action.CustomTabsService
+ADDED from [:expo-web-browser] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-web-browser\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:11:13-90
+	android:name
+		ADDED from [:expo-web-browser] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-web-browser\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:11:21-87
+meta-data#org.unimodules.core.AppLoader#react-native-headless
+ADDED from [:expo-modules-core] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:9:9-11:89
+	android:value
+		ADDED from [:expo-modules-core] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:11:13-86
+	android:name
+		ADDED from [:expo-modules-core] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:10:13-79
+meta-data#com.facebook.soloader.enabled
+ADDED from [:expo-modules-core] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:12:9-15:45
+MERGED from [com.facebook.soloader:soloader:0.12.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\ea87c9c73d569a39ee5a5e9407672245\transformed\soloader-0.12.1\AndroidManifest.xml:12:9-14:37
+MERGED from [com.facebook.soloader:soloader:0.12.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\ea87c9c73d569a39ee5a5e9407672245\transformed\soloader-0.12.1\AndroidManifest.xml:12:9-14:37
+	tools:replace
+		ADDED from [:expo-modules-core] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:15:13-42
+	android:value
+		ADDED from [:expo-modules-core] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:14:13-33
+		REJECTED from [com.facebook.soloader:soloader:0.12.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\ea87c9c73d569a39ee5a5e9407672245\transformed\soloader-0.12.1\AndroidManifest.xml:14:13-34
+	android:name
+		ADDED from [:expo-modules-core] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:13:13-57
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:21.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\76acf098b5da9b6c0226470cb9d2dc3c\transformed\play-services-auth-21.3.0\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:21.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\76acf098b5da9b6c0226470cb9d2dc3c\transformed\play-services-auth-21.3.0\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:21.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\76acf098b5da9b6c0226470cb9d2dc3c\transformed\play-services-auth-21.3.0\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:21.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\76acf098b5da9b6c0226470cb9d2dc3c\transformed\play-services-auth-21.3.0\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:21.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\76acf098b5da9b6c0226470cb9d2dc3c\transformed\play-services-auth-21.3.0\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:21.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\76acf098b5da9b6c0226470cb9d2dc3c\transformed\play-services-auth-21.3.0\AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:21.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\76acf098b5da9b6c0226470cb9d2dc3c\transformed\play-services-auth-21.3.0\AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:21.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\76acf098b5da9b6c0226470cb9d2dc3c\transformed\play-services-auth-21.3.0\AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:21.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\76acf098b5da9b6c0226470cb9d2dc3c\transformed\play-services-auth-21.3.0\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:21.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\76acf098b5da9b6c0226470cb9d2dc3c\transformed\play-services-auth-21.3.0\AndroidManifest.xml:34:13-89
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\585321bdab24c12146ded36707c3f103\transformed\play-services-measurement-impl-22.4.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\585321bdab24c12146ded36707c3f103\transformed\play-services-measurement-impl-22.4.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d805a7a2301ea36d4fb83493a5bf0a63\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d805a7a2301ea36d4fb83493a5bf0a63\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7afd772d5b41826353880fa5691609be\transformed\firebase-installations-18.0.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7afd772d5b41826353880fa5691609be\transformed\firebase-installations-18.0.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\e6bde6effca665c326d1536bf9f459b5\transformed\play-services-measurement-sdk-api-22.4.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\e6bde6effca665c326d1536bf9f459b5\transformed\play-services-measurement-sdk-api-22.4.0\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:24:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\585321bdab24c12146ded36707c3f103\transformed\play-services-measurement-impl-22.4.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\585321bdab24c12146ded36707c3f103\transformed\play-services-measurement-impl-22.4.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d805a7a2301ea36d4fb83493a5bf0a63\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d805a7a2301ea36d4fb83493a5bf0a63\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\e6bde6effca665c326d1536bf9f459b5\transformed\play-services-measurement-sdk-api-22.4.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\e6bde6effca665c326d1536bf9f459b5\transformed\play-services-measurement-sdk-api-22.4.0\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:25:22-65
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\585321bdab24c12146ded36707c3f103\transformed\play-services-measurement-impl-22.4.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\585321bdab24c12146ded36707c3f103\transformed\play-services-measurement-impl-22.4.0\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:40:13-87
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-impl:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\585321bdab24c12146ded36707c3f103\transformed\play-services-measurement-impl-22.4.0\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d805a7a2301ea36d4fb83493a5bf0a63\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d805a7a2301ea36d4fb83493a5bf0a63\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\5f8ea5a9c165f388eca5c4df8adb4c0c\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\5f8ea5a9c165f388eca5c4df8adb4c0c\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\e6bde6effca665c326d1536bf9f459b5\transformed\play-services-measurement-sdk-api-22.4.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\e6bde6effca665c326d1536bf9f459b5\transformed\play-services-measurement-sdk-api-22.4.0\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-impl:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\585321bdab24c12146ded36707c3f103\transformed\play-services-measurement-impl-22.4.0\AndroidManifest.xml:27:22-76
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\a63736bfe5973d429cb03ec0eca13239\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\a63736bfe5973d429cb03ec0eca13239\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\a63736bfe5973d429cb03ec0eca13239\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\a63736bfe5973d429cb03ec0eca13239\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+uses-permission#android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+ADDED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d805a7a2301ea36d4fb83493a5bf0a63\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:26:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\e6bde6effca665c326d1536bf9f459b5\transformed\play-services-measurement-sdk-api-22.4.0\AndroidManifest.xml:27:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\e6bde6effca665c326d1536bf9f459b5\transformed\play-services-measurement-sdk-api-22.4.0\AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d805a7a2301ea36d4fb83493a5bf0a63\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:26:22-85
+uses-permission#android.permission.ACCESS_ADSERVICES_AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d805a7a2301ea36d4fb83493a5bf0a63\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:27:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\e6bde6effca665c326d1536bf9f459b5\transformed\play-services-measurement-sdk-api-22.4.0\AndroidManifest.xml:28:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\e6bde6effca665c326d1536bf9f459b5\transformed\play-services-measurement-sdk-api-22.4.0\AndroidManifest.xml:28:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d805a7a2301ea36d4fb83493a5bf0a63\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:27:22-79
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d805a7a2301ea36d4fb83493a5bf0a63\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d805a7a2301ea36d4fb83493a5bf0a63\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d805a7a2301ea36d4fb83493a5bf0a63\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:34:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
+ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7afd772d5b41826353880fa5691609be\transformed\firebase-installations-18.0.0\AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7afd772d5b41826353880fa5691609be\transformed\firebase-installations-18.0.0\AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7afd772d5b41826353880fa5691609be\transformed\firebase-installations-18.0.0\AndroidManifest.xml:16:17-130
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7afd772d5b41826353880fa5691609be\transformed\firebase-installations-18.0.0\AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7afd772d5b41826353880fa5691609be\transformed\firebase-installations-18.0.0\AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7afd772d5b41826353880fa5691609be\transformed\firebase-installations-18.0.0\AndroidManifest.xml:19:17-127
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7197adca527eb2666c37ed10cf56201a\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7197adca527eb2666c37ed10cf56201a\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7197adca527eb2666c37ed10cf56201a\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\f77a3469b11cf92a07d0d6ce44cf75c8\transformed\firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\f77a3469b11cf92a07d0d6ce44cf75c8\transformed\firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\f77a3469b11cf92a07d0d6ce44cf75c8\transformed\firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\f77a3469b11cf92a07d0d6ce44cf75c8\transformed\firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\f77a3469b11cf92a07d0d6ce44cf75c8\transformed\firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\f77a3469b11cf92a07d0d6ce44cf75c8\transformed\firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\f77a3469b11cf92a07d0d6ce44cf75c8\transformed\firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\f77a3469b11cf92a07d0d6ce44cf75c8\transformed\firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\f77a3469b11cf92a07d0d6ce44cf75c8\transformed\firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\26022e544f02c8afdf1f204051c55075\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\0ad95e1ed815405d4b58ed93786e7982\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\0ad95e1ed815405d4b58ed93786e7982\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\5af87c39c5770ac08eea067414661abc\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\5af87c39c5770ac08eea067414661abc\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\26022e544f02c8afdf1f204051c55075\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\26022e544f02c8afdf1f204051c55075\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\26022e544f02c8afdf1f204051c55075\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\26022e544f02c8afdf1f204051c55075\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\26022e544f02c8afdf1f204051c55075\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\26022e544f02c8afdf1f204051c55075\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\26022e544f02c8afdf1f204051c55075\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+uses-library#android.ext.adservices
+ADDED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\4a03db92f2bb8fb63975ac715b9b5819\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\4a03db92f2bb8fb63975ac715b9b5819\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\4a03db92f2bb8fb63975ac715b9b5819\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:24:13-50
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\649dc411457803614181aae34e38aa46\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\649dc411457803614181aae34e38aa46\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\649dc411457803614181aae34e38aa46\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+permission#com.beachfinder.reactnative.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\649dc411457803614181aae34e38aa46\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\649dc411457803614181aae34e38aa46\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\649dc411457803614181aae34e38aa46\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\649dc411457803614181aae34e38aa46\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\649dc411457803614181aae34e38aa46\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+uses-permission#com.beachfinder.reactnative.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\649dc411457803614181aae34e38aa46\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\649dc411457803614181aae34e38aa46\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\0ad95e1ed815405d4b58ed93786e7982\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\0ad95e1ed815405d4b58ed93786e7982\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\0ad95e1ed815405d4b58ed93786e7982\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:30:17-78
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.5.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\1d2e6a44c8d9a9fdf8102a656f6ee090\transformed\play-services-basement-18.5.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.5.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\1d2e6a44c8d9a9fdf8102a656f6ee090\transformed\play-services-basement-18.5.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.5.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\1d2e6a44c8d9a9fdf8102a656f6ee090\transformed\play-services-basement-18.5.0\AndroidManifest.xml:22:13-58
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92

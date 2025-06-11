@@ -1,0 +1,444 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.beachfinder.reactnative"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:2:3-64
+11-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:2:20-62
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:3:3-77
+12-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:3:20-75
+13    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+13-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:4:3-75
+13-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:4:20-73
+14    <uses-permission android:name="android.permission.VIBRATE" />
+14-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:5:3-63
+14-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:5:20-61
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:6:3-78
+15-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:6:20-76
+16
+17    <queries>
+17-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:7:3-13:13
+18        <intent>
+18-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:8:5-12:14
+19            <action android:name="android.intent.action.VIEW" />
+19-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:9:7-58
+19-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:9:15-56
+20
+21            <category android:name="android.intent.category.BROWSABLE" />
+21-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:10:7-67
+21-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:10:17-65
+22
+23            <data android:scheme="https" />
+23-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:11:7-37
+23-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:11:13-35
+24        </intent>
+25        <!-- Query open documents -->
+26        <intent>
+26-->[:expo-file-system] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:15:9-17:18
+27            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+27-->[:expo-file-system] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:16:13-79
+27-->[:expo-file-system] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:16:21-76
+28        </intent>
+29        <intent>
+29-->[:expo-web-browser] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-web-browser\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:8:9-12:18
+30
+31            <!-- Required for opening tabs if targeting API 30 -->
+32            <action android:name="android.support.customtabs.action.CustomTabsService" />
+32-->[:expo-web-browser] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-web-browser\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:11:13-90
+32-->[:expo-web-browser] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-web-browser\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:11:21-87
+33        </intent>
+34    </queries>
+35
+36    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+36-->[com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:24:5-79
+36-->[com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:24:22-76
+37    <uses-permission android:name="android.permission.WAKE_LOCK" />
+37-->[com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:25:5-68
+37-->[com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:25:22-65
+38    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+38-->[com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:26:5-110
+38-->[com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:26:22-107
+39    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+39-->[com.google.android.gms:play-services-measurement-impl:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\585321bdab24c12146ded36707c3f103\transformed\play-services-measurement-impl-22.4.0\AndroidManifest.xml:27:5-79
+39-->[com.google.android.gms:play-services-measurement-impl:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\585321bdab24c12146ded36707c3f103\transformed\play-services-measurement-impl-22.4.0\AndroidManifest.xml:27:22-76
+40    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+40-->[com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d805a7a2301ea36d4fb83493a5bf0a63\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:26:5-88
+40-->[com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d805a7a2301ea36d4fb83493a5bf0a63\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:26:22-85
+41    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+41-->[com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d805a7a2301ea36d4fb83493a5bf0a63\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:27:5-82
+41-->[com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d805a7a2301ea36d4fb83493a5bf0a63\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:27:22-79
+42
+43    <permission
+43-->[androidx.core:core:1.13.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\649dc411457803614181aae34e38aa46\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+44        android:name="com.beachfinder.reactnative.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+44-->[androidx.core:core:1.13.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\649dc411457803614181aae34e38aa46\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+45        android:protectionLevel="signature" />
+45-->[androidx.core:core:1.13.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\649dc411457803614181aae34e38aa46\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+46
+47    <uses-permission android:name="com.beachfinder.reactnative.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+47-->[androidx.core:core:1.13.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\649dc411457803614181aae34e38aa46\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+47-->[androidx.core:core:1.13.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\649dc411457803614181aae34e38aa46\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+48
+49    <application
+49-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:14:3-31:17
+50        android:name="com.beachfinder.reactnative.MainApplication"
+50-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:14:16-47
+51        android:allowBackup="true"
+51-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:14:162-188
+52        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+52-->[androidx.core:core:1.13.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\649dc411457803614181aae34e38aa46\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+53        android:extractNativeLibs="false"
+54        android:icon="@mipmap/ic_launcher"
+54-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:14:81-115
+55        android:label="@string/app_name"
+55-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:14:48-80
+56        android:roundIcon="@mipmap/ic_launcher_round"
+56-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:14:116-161
+57        android:supportsRtl="true"
+57-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:14:221-247
+58        android:theme="@style/AppTheme" >
+58-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:14:189-220
+59        <meta-data
+59-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:15:5-83
+60            android:name="expo.modules.updates.ENABLED"
+60-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:15:16-59
+61            android:value="false" />
+61-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:15:60-81
+62        <meta-data
+62-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:16:5-105
+63            android:name="expo.modules.updates.EXPO_UPDATES_CHECK_ON_LAUNCH"
+63-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:16:16-80
+64            android:value="ALWAYS" />
+64-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:16:81-103
+65        <meta-data
+65-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:17:5-99
+66            android:name="expo.modules.updates.EXPO_UPDATES_LAUNCH_WAIT_MS"
+66-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:17:16-79
+67            android:value="0" />
+67-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:17:80-97
+68
+69        <activity
+69-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:18:5-30:16
+70            android:name="com.beachfinder.reactnative.MainActivity"
+70-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:18:15-43
+71            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|uiMode"
+71-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:18:44-134
+72            android:exported="true"
+72-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:18:256-279
+73            android:launchMode="singleTask"
+73-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:18:135-166
+74            android:screenOrientation="portrait"
+74-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:18:280-316
+75            android:theme="@style/Theme.App.SplashScreen"
+75-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:18:210-255
+76            android:windowSoftInputMode="adjustResize" >
+76-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:18:167-209
+77            <intent-filter>
+77-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:19:7-22:23
+78                <action android:name="android.intent.action.MAIN" />
+78-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:20:9-60
+78-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:20:17-58
+79
+80                <category android:name="android.intent.category.LAUNCHER" />
+80-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:21:9-68
+80-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:21:19-66
+81            </intent-filter>
+82            <intent-filter>
+82-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:23:7-29:23
+83                <action android:name="android.intent.action.VIEW" />
+83-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:9:7-58
+83-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:9:15-56
+84
+85                <category android:name="android.intent.category.DEFAULT" />
+85-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:25:9-67
+85-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:25:19-65
+86                <category android:name="android.intent.category.BROWSABLE" />
+86-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:10:7-67
+86-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:10:17-65
+87
+88                <data android:scheme="myapp" />
+88-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:11:7-37
+88-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:11:13-35
+89                <data android:scheme="com.anonymous.beachfinderapp" />
+89-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:11:7-37
+89-->C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\android\app\src\main\AndroidManifest.xml:11:13-35
+90            </intent-filter>
+91        </activity>
+92
+93        <provider
+93-->[:react-native-webview] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:8:9-16:20
+94            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+94-->[:react-native-webview] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:9:13-83
+95            android:authorities="com.beachfinder.reactnative.fileprovider"
+95-->[:react-native-webview] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:10:13-64
+96            android:exported="false"
+96-->[:react-native-webview] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:11:13-37
+97            android:grantUriPermissions="true" >
+97-->[:react-native-webview] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:12:13-47
+98            <meta-data
+98-->[:react-native-webview] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:13:13-15:63
+99                android:name="android.support.FILE_PROVIDER_PATHS"
+99-->[:react-native-webview] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:14:17-67
+100                android:resource="@xml/file_provider_paths" />
+100-->[:react-native-webview] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:15:17-60
+101        </provider>
+102
+103        <meta-data
+103-->[:react-native-firebase_app] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:9:9-11:36
+104            android:name="app_data_collection_default_enabled"
+104-->[:react-native-firebase_app] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:10:13-63
+105            android:value="true" />
+105-->[:react-native-firebase_app] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:11:13-33
+106
+107        <service
+107-->[:react-native-firebase_app] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:13:9-21:19
+108            android:name="com.google.firebase.components.ComponentDiscoveryService"
+108-->[:react-native-firebase_app] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:14:13-84
+109            android:directBootAware="true"
+109-->[:react-native-firebase_app] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:15:13-43
+110            android:exported="false" >
+110-->[:react-native-firebase_app] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:16:13-37
+111            <meta-data
+111-->[:react-native-firebase_app] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:18:13-20:85
+112                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+112-->[:react-native-firebase_app] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:19:17-120
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[:react-native-firebase_app] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:20:17-82
+114            <meta-data
+114-->[com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d805a7a2301ea36d4fb83493a5bf0a63\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:33:13-35:85
+115                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+115-->[com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d805a7a2301ea36d4fb83493a5bf0a63\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:34:17-139
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.android.gms:play-services-measurement-api:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d805a7a2301ea36d4fb83493a5bf0a63\transformed\play-services-measurement-api-22.4.0\AndroidManifest.xml:35:17-82
+117            <meta-data
+117-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7afd772d5b41826353880fa5691609be\transformed\firebase-installations-18.0.0\AndroidManifest.xml:15:13-17:85
+118                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+118-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7afd772d5b41826353880fa5691609be\transformed\firebase-installations-18.0.0\AndroidManifest.xml:16:17-130
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7afd772d5b41826353880fa5691609be\transformed\firebase-installations-18.0.0\AndroidManifest.xml:17:17-82
+120            <meta-data
+120-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7afd772d5b41826353880fa5691609be\transformed\firebase-installations-18.0.0\AndroidManifest.xml:18:13-20:85
+121                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+121-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7afd772d5b41826353880fa5691609be\transformed\firebase-installations-18.0.0\AndroidManifest.xml:19:17-127
+122                android:value="com.google.firebase.components.ComponentRegistrar" />
+122-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7afd772d5b41826353880fa5691609be\transformed\firebase-installations-18.0.0\AndroidManifest.xml:20:17-82
+123            <meta-data
+123-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7197adca527eb2666c37ed10cf56201a\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+124                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+124-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7197adca527eb2666c37ed10cf56201a\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+125                android:value="com.google.firebase.components.ComponentRegistrar" />
+125-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\7197adca527eb2666c37ed10cf56201a\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+126            <meta-data
+126-->[com.google.firebase:firebase-common:21.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\f77a3469b11cf92a07d0d6ce44cf75c8\transformed\firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+127                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+127-->[com.google.firebase:firebase-common:21.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\f77a3469b11cf92a07d0d6ce44cf75c8\transformed\firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+128                android:value="com.google.firebase.components.ComponentRegistrar" />
+128-->[com.google.firebase:firebase-common:21.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\f77a3469b11cf92a07d0d6ce44cf75c8\transformed\firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+129        </service>
+130
+131        <provider
+131-->[:react-native-firebase_app] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:23:9-27:38
+132            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+132-->[:react-native-firebase_app] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:24:13-88
+133            android:authorities="com.beachfinder.reactnative.reactnativefirebaseappinitprovider"
+133-->[:react-native-firebase_app] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:25:13-86
+134            android:exported="false"
+134-->[:react-native-firebase_app] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:26:13-37
+135            android:initOrder="99" />
+135-->[:react-native-firebase_app] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:27:13-35
+136        <provider
+136-->[:expo-file-system] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:21:9-30:20
+137            android:name="expo.modules.filesystem.FileSystemFileProvider"
+137-->[:expo-file-system] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:22:13-74
+138            android:authorities="com.beachfinder.reactnative.FileSystemFileProvider"
+138-->[:expo-file-system] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:23:13-74
+139            android:exported="false"
+139-->[:expo-file-system] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:24:13-37
+140            android:grantUriPermissions="true" >
+140-->[:expo-file-system] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:25:13-47
+141            <meta-data
+141-->[:react-native-webview] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:13:13-15:63
+142                android:name="android.support.FILE_PROVIDER_PATHS"
+142-->[:react-native-webview] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:14:17-67
+143                android:resource="@xml/file_system_provider_paths" />
+143-->[:react-native-webview] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:15:17-60
+144        </provider>
+145
+146        <meta-data
+146-->[:expo-modules-core] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:9:9-11:89
+147            android:name="org.unimodules.core.AppLoader#react-native-headless"
+147-->[:expo-modules-core] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:10:13-79
+148            android:value="expo.modules.adapters.react.apploader.RNHeadlessAppLoader" />
+148-->[:expo-modules-core] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:11:13-86
+149        <meta-data
+149-->[:expo-modules-core] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:12:9-15:45
+150            android:name="com.facebook.soloader.enabled"
+150-->[:expo-modules-core] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:13:13-57
+151            android:value="true" />
+151-->[:expo-modules-core] C:\Users\KaienaMartinsFeitosa\Desktop\Projetos\Beach-Finder\beach-finder-app\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:14:13-33
+152
+153        <activity
+153-->[com.google.android.gms:play-services-auth:21.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\76acf098b5da9b6c0226470cb9d2dc3c\transformed\play-services-auth-21.3.0\AndroidManifest.xml:23:9-27:75
+154            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+154-->[com.google.android.gms:play-services-auth:21.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\76acf098b5da9b6c0226470cb9d2dc3c\transformed\play-services-auth-21.3.0\AndroidManifest.xml:24:13-93
+155            android:excludeFromRecents="true"
+155-->[com.google.android.gms:play-services-auth:21.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\76acf098b5da9b6c0226470cb9d2dc3c\transformed\play-services-auth-21.3.0\AndroidManifest.xml:25:13-46
+156            android:exported="false"
+156-->[com.google.android.gms:play-services-auth:21.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\76acf098b5da9b6c0226470cb9d2dc3c\transformed\play-services-auth-21.3.0\AndroidManifest.xml:26:13-37
+157            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+157-->[com.google.android.gms:play-services-auth:21.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\76acf098b5da9b6c0226470cb9d2dc3c\transformed\play-services-auth-21.3.0\AndroidManifest.xml:27:13-72
+158        <!--
+159            Service handling Google Sign-In user revocation. For apps that do not integrate with
+160            Google Sign-In, this service will never be started.
+161        -->
+162        <service
+162-->[com.google.android.gms:play-services-auth:21.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\76acf098b5da9b6c0226470cb9d2dc3c\transformed\play-services-auth-21.3.0\AndroidManifest.xml:33:9-37:51
+163            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+163-->[com.google.android.gms:play-services-auth:21.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\76acf098b5da9b6c0226470cb9d2dc3c\transformed\play-services-auth-21.3.0\AndroidManifest.xml:34:13-89
+164            android:exported="true"
+164-->[com.google.android.gms:play-services-auth:21.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\76acf098b5da9b6c0226470cb9d2dc3c\transformed\play-services-auth-21.3.0\AndroidManifest.xml:35:13-36
+165            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+165-->[com.google.android.gms:play-services-auth:21.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\76acf098b5da9b6c0226470cb9d2dc3c\transformed\play-services-auth-21.3.0\AndroidManifest.xml:36:13-107
+166            android:visibleToInstantApps="true" />
+166-->[com.google.android.gms:play-services-auth:21.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\76acf098b5da9b6c0226470cb9d2dc3c\transformed\play-services-auth-21.3.0\AndroidManifest.xml:37:13-48
+167
+168        <receiver
+168-->[com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:29:9-33:20
+169            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+169-->[com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:30:13-85
+170            android:enabled="true"
+170-->[com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:31:13-35
+171            android:exported="false" >
+171-->[com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:32:13-37
+172        </receiver>
+173
+174        <service
+174-->[com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:35:9-38:40
+175            android:name="com.google.android.gms.measurement.AppMeasurementService"
+175-->[com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:36:13-84
+176            android:enabled="true"
+176-->[com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:37:13-35
+177            android:exported="false" />
+177-->[com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:38:13-37
+178        <service
+178-->[com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:39:9-43:72
+179            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+179-->[com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:40:13-87
+180            android:enabled="true"
+180-->[com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:41:13-35
+181            android:exported="false"
+181-->[com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:42:13-37
+182            android:permission="android.permission.BIND_JOB_SERVICE" />
+182-->[com.google.android.gms:play-services-measurement:22.4.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\d7a20092d6990aa4b04ac456acee2d9c\transformed\play-services-measurement-22.4.0\AndroidManifest.xml:43:13-69
+183
+184        <activity
+184-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\a63736bfe5973d429cb03ec0eca13239\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+185            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+185-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\a63736bfe5973d429cb03ec0eca13239\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+186            android:exported="false"
+186-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\a63736bfe5973d429cb03ec0eca13239\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+187            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+187-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\a63736bfe5973d429cb03ec0eca13239\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+188
+189        <provider
+189-->[com.google.firebase:firebase-common:21.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\f77a3469b11cf92a07d0d6ce44cf75c8\transformed\firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+190            android:name="com.google.firebase.provider.FirebaseInitProvider"
+190-->[com.google.firebase:firebase-common:21.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\f77a3469b11cf92a07d0d6ce44cf75c8\transformed\firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+191            android:authorities="com.beachfinder.reactnative.firebaseinitprovider"
+191-->[com.google.firebase:firebase-common:21.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\f77a3469b11cf92a07d0d6ce44cf75c8\transformed\firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+192            android:directBootAware="true"
+192-->[com.google.firebase:firebase-common:21.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\f77a3469b11cf92a07d0d6ce44cf75c8\transformed\firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+193            android:exported="false"
+193-->[com.google.firebase:firebase-common:21.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\f77a3469b11cf92a07d0d6ce44cf75c8\transformed\firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+194            android:initOrder="100" />
+194-->[com.google.firebase:firebase-common:21.0.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\f77a3469b11cf92a07d0d6ce44cf75c8\transformed\firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+195        <provider
+195-->[androidx.emoji2:emoji2:1.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\26022e544f02c8afdf1f204051c55075\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+196            android:name="androidx.startup.InitializationProvider"
+196-->[androidx.emoji2:emoji2:1.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\26022e544f02c8afdf1f204051c55075\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+197            android:authorities="com.beachfinder.reactnative.androidx-startup"
+197-->[androidx.emoji2:emoji2:1.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\26022e544f02c8afdf1f204051c55075\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+198            android:exported="false" >
+198-->[androidx.emoji2:emoji2:1.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\26022e544f02c8afdf1f204051c55075\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+199            <meta-data
+199-->[androidx.emoji2:emoji2:1.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\26022e544f02c8afdf1f204051c55075\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+200                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+200-->[androidx.emoji2:emoji2:1.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\26022e544f02c8afdf1f204051c55075\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+201                android:value="androidx.startup" />
+201-->[androidx.emoji2:emoji2:1.3.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\26022e544f02c8afdf1f204051c55075\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+202            <meta-data
+202-->[androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\0ad95e1ed815405d4b58ed93786e7982\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:29:13-31:52
+203                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+203-->[androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\0ad95e1ed815405d4b58ed93786e7982\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:30:17-78
+204                android:value="androidx.startup" />
+204-->[androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\0ad95e1ed815405d4b58ed93786e7982\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:31:17-49
+205            <meta-data
+205-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+206                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+206-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+207                android:value="androidx.startup" />
+207-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+208        </provider>
+209
+210        <uses-library
+210-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\4a03db92f2bb8fb63975ac715b9b5819\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:23:9-25:40
+211            android:name="android.ext.adservices"
+211-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\4a03db92f2bb8fb63975ac715b9b5819\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:24:13-50
+212            android:required="false" />
+212-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\4a03db92f2bb8fb63975ac715b9b5819\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:25:13-37
+213
+214        <meta-data
+214-->[com.google.android.gms:play-services-basement:18.5.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\1d2e6a44c8d9a9fdf8102a656f6ee090\transformed\play-services-basement-18.5.0\AndroidManifest.xml:21:9-23:69
+215            android:name="com.google.android.gms.version"
+215-->[com.google.android.gms:play-services-basement:18.5.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\1d2e6a44c8d9a9fdf8102a656f6ee090\transformed\play-services-basement-18.5.0\AndroidManifest.xml:22:13-58
+216            android:value="@integer/google_play_services_version" />
+216-->[com.google.android.gms:play-services-basement:18.5.0] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\1d2e6a44c8d9a9fdf8102a656f6ee090\transformed\play-services-basement-18.5.0\AndroidManifest.xml:23:13-66
+217
+218        <receiver
+218-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+219            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+219-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+220            android:directBootAware="false"
+220-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+221            android:enabled="true"
+221-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+222            android:exported="true"
+222-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+223            android:permission="android.permission.DUMP" >
+223-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+224            <intent-filter>
+224-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+225                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+225-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+225-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+226            </intent-filter>
+227            <intent-filter>
+227-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+228                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+228-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+228-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+229            </intent-filter>
+230            <intent-filter>
+230-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+231                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+231-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+231-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+232            </intent-filter>
+233            <intent-filter>
+233-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+234                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+234-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+234-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\KaienaMartinsFeitosa\.gradle\caches\8.10.2\transforms\fabeda07ce1206ce9fcc72b1484d3c09\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+235            </intent-filter>
+236        </receiver>
+237    </application>
+238
+239</manifest>

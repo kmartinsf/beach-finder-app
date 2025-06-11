@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.beachfinder.reactnative.app-mergeReleaseResources-69:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\KaienaMartinsFeitosa\\.gradle\\caches\\8.10.2\\transforms\\7758590f7019ebb031e193803b04e590\\transformed\\appcompat-1.7.0\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}
