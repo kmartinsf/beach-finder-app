@@ -29,6 +29,15 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
+        name="water_quality"
+        options={{
+          title: "Balneabilidade",
+          tabBarIcon: ({ color }) => (
+            <FontAwesome5 size={24} name="tint" color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
         name="favourites"
         options={{
           title: "Favoritas",
