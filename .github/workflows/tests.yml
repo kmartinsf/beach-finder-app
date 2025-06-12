@@ -4,18 +4,18 @@ on:
   push:
     branches:
       - main
-      - dev
 
-jobs: 
+jobs:
   test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+
       - run: npm install
-      - run: npm run test
+
       - run: npm run lint -- --fix
-      - run: npx expo install --fix
-      - run: npx expo start --web --non-interactive --no-dev --minify
+      - run: npm run test
