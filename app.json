@@ -26,22 +26,6 @@
     "plugins": [
       "expo-router",
       [
-        "expo-font",
-        {
-          "fonts": [
-            {
-              "LeagueSpartan-Regular": "node_modules/@expo-google-fonts/league-spartan/static/LeagueSpartan-Regular.ttf"
-            },
-            {
-              "LeagueSpartan-Medium": "node_modules/@expo-google-fonts/league-spartan/static/LeagueSpartan-Medium.ttf"
-            },
-            {
-              "LeagueSpartan-Bold": "node_modules/@expo-google-fonts/league-spartan/static/LeagueSpartan-Bold.ttf"
-            }
-          ]
-        }
-      ],
-      [
         "expo-splash-screen",
         {
           "image": "./assets/images/splash-icon.png",
@@ -51,6 +35,7 @@
         }
       ]
     ],
+
     "experiments": {
       "typedRoutes": true
     }
