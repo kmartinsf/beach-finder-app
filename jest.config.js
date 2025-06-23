@@ -7,7 +7,8 @@ module.exports = {
     "node_modules/(?!(expo|@expo|expo-router|expo-modules-core|expo-asset|expo-constants|expo-linking|react-native|@react-native|react-navigation|@react-navigation)/)"
   ],
   moduleNameMapper: {
-    "^@/(.*)$": "<rootDir>/$1"
+    "^@/(.*)$": "<rootDir>/$1",
+    "^@/utils/firebase$": "<rootDir>/tests/__mocks__/firebase.ts",
   },
   moduleDirectories: ["node_modules", path.resolve(__dirname)],
   transform: {
