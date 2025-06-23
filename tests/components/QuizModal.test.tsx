@@ -2,6 +2,11 @@ jest.mock("@/store/question", () => ({
   useQuestionStore: jest.fn(),
 }));
 
+jest.mock("@/firebase", () => ({
+  findBeaches: jest.fn().mockResolvedValue([]),
+}));
+
+
 import QuizModal from "@/components/QuizModal";
 import { fireEvent, render } from "@testing-library/react-native";
 import { State } from "react-native-gesture-handler";
