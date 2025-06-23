@@ -5,12 +5,14 @@ import { fontStyles } from "../constants/fonts";
 const UniqueBeach = ({
   onPress,
   children,
+  testID,
 }: {
   onPress: () => void;
   children: React.ReactNode;
+  testID?: string;
 }) => {
   return (
-    <Pressable onPress={onPress}>
+    <Pressable onPress={onPress} testID={testID}>
       <View style={styles.item}>
         <Text style={styles.beachNameTitle}>{children}</Text>
       </View>

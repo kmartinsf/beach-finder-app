@@ -1,3 +1,4 @@
+import QuizModal from "@/components/QuizModal";
 import { useFocusEffect, useNavigation } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import React, { useCallback, useEffect, useState } from "react";
@@ -5,7 +6,6 @@ import { FlatList, StyleSheet, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import Button from "../components/Button";
 import Loader from "../components/Loader";
-import QuizModal from "../components/QuizModal";
 import UniqueBeach from "../components/UniqueBeach";
 import { colours } from "../constants/colours";
 import { fontStyles } from "../constants/fonts";
@@ -98,6 +98,7 @@ const ResultScreen = () => {
             renderItem={({ item }) => (
               <UniqueBeach
                 onPress={() => goToBeachDetails(item)}
+                testID="unique-beach"
               >
                 <Text>{item.name}</Text>
               </UniqueBeach>

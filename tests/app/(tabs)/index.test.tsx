@@ -12,6 +12,25 @@ jest.mock("@react-navigation/native", () => {
   };
 });
 
+jest.mock("@/store/question", () => ({
+  useQuestionStore: () => ({
+    questions: [
+      {
+        id: 1,
+        question: "Pergunta 1",
+        options: ["Resposta 1", "Resposta 2", "Resposta 3"],
+      },
+      {
+        id: 2,
+        question: "Pergunta 2",
+        options: ["Resposta A", "Resposta B", "Resposta C"],
+      },
+    ],
+    selectedAnswers: [],
+    setSelectedAnswers: jest.fn(),
+  }),
+}));
+
 jest.mock("@react-navigation/native-stack", () => ({
   createNativeStackNavigator: () => ({
     Navigator: ({ children }: { children: React.ReactNode }) => <>{children}</>,
@@ -36,10 +55,10 @@ describe("HomeScreen", () => {
   });
 
   it("should show quiz modal when button is pressed", () => {
-  renderWithNavigation(<HomeScreen />);
-  const button = screen.getByText("Começar");
-  fireEvent.press(button);
-  
-  expect(screen.getByText("Pergunta 1")).toBeOnTheScreen();
-});
+    renderWithNavigation(<HomeScreen />);
+    const button = screen.getByText("Começar");
+    fireEvent.press(button);
+
+    expect(screen.getByText("Pergunta 1")).toBeOnTheScreen();
+  });
 });

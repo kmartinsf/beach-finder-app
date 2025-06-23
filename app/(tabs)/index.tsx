@@ -3,9 +3,9 @@ import React, { useCallback, useState } from "react";
 import { StyleSheet, Text } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import Button from "../../components/Button";
-import QuizModal from "../../components/QuizModal";
 import { colours } from "../../constants/colours";
 import { fontStyles } from "../../constants/fonts";
+import QuizModal from "@/components/QuizModal";
 
 const HomeScreen = () => {
   const [isModalVisible, setModalVisible] = useState(false);

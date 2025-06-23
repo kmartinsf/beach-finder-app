@@ -8,6 +8,17 @@ import { act, fireEvent, render, waitFor } from "@testing-library/react-native";
 import React from "react";
 
 const mockNavigate = jest.fn();
+const mockSetSelectedAnswers = jest.fn();
+const mockUseQuestionStore = jest.fn();
+const mockUseBeachStore = jest.fn();
+
+jest.mock("@/store/question", () => ({
+  useQuestionStore: () => mockUseQuestionStore(),
+}));
+
+jest.mock("@/store/beaches", () => ({
+  useBeachStore: () => mockUseBeachStore(),
+}));
 
 jest.mock("@react-navigation/native", () => {
   const actualNav = jest.requireActual("@react-navigation/native");
@@ -16,45 +27,11 @@ jest.mock("@react-navigation/native", () => {
     useNavigation: () => ({
       navigate: mockNavigate,
     }),
-  };
-});
-
-jest.mock("@/store/beaches", () => ({
-  useBeachStore: jest.fn(),
-}));
-
-jest.mock("@/store/question", () => ({
-  useQuestionStore: jest.fn(),
-}));
-
-jest.mock("@/components/Loader", () => {
-  return () => {
-    const { Text } = require("react-native");
-    return <Text>Loading...</Text>;
-  };
-});
-
-jest.mock("@/components/QuizModal", () => {
-  return ({ isVisible }: { isVisible: boolean }) => {
-    const { Text } = require("react-native");
-    return isVisible ? <Text>Modal Aberto</Text> : null;
-  };
-});
-
-jest.mock("@/components/UniqueBeach", () => {
-  return ({ children, onPress }: any) => {
-    const { Text } = require("react-native");
-    return (
-      <Text onPress={onPress} testID="unique-beach">
-        {children}
-      </Text>
-    );
+    useFocusEffect: jest.fn((cb) => cb()),
   };
 });
 
 describe("ResultScreen", () => {
-  const mockSetSelectedAnswers = jest.fn();
-
   const renderWithNavigation = (component: React.ReactElement) => {
     return render(<NavigationContainer>{component}</NavigationContainer>);
   };
@@ -62,22 +39,22 @@ describe("ResultScreen", () => {
   beforeEach(() => {
     jest.clearAllMocks();
     jest.useFakeTimers({ legacyFakeTimers: true });
-    (useQuestionStore as unknown as jest.Mock).mockReturnValue({
+    mockUseQuestionStore.mockReturnValue({
       setSelectedAnswers: mockSetSelectedAnswers,
     });
   });
 
   it("should show loader when loading", () => {
-    (useBeachStore as unknown as jest.Mock).mockReturnValue({
+    mockUseBeachStore.mockReturnValue({
       beaches: [{ name: "Jurerê", id: "1" }],
     });
 
-    const { getByText } = renderWithNavigation(<ResultScreen />);
-    expect(getByText("Loading...")).toBeTruthy();
+    const { getByTestId } = renderWithNavigation(<ResultScreen />);
+    expect(getByTestId("activity-indicator")).toBeTruthy();
   });
 
   it("should show empty state when no beaches are found", async () => {
-    (useBeachStore as unknown as jest.Mock).mockReturnValue({ beaches: [] });
+    mockUseBeachStore.mockReturnValue({ beaches: [] });
 
     const { getByText } = renderWithNavigation(<ResultScreen />);
 
@@ -95,7 +72,7 @@ describe("ResultScreen", () => {
     const beaches = [
       { name: "Lagoinha", id: "1", waves: false, waterTemp: "warm" },
     ];
-    (useBeachStore as unknown as jest.Mock).mockReturnValue({ beaches });
+    mockUseBeachStore.mockReturnValue({ beaches });
 
     const { getByText, getByTestId } = renderWithNavigation(<ResultScreen />);
 
@@ -118,6 +95,7 @@ describe("ResultScreen", () => {
       expect.objectContaining({ beachId: "1" })
     );
   });
+
   it("should display random beach when button is clicked", async () => {
     const beaches = [
       { name: "Canasvieiras", id: "1", waves: false, waterTemp: "warm" },
@@ -128,7 +106,7 @@ describe("ResultScreen", () => {
     mockMath.random = () => 0.75;
     global.Math = mockMath;
 
-    (useBeachStore as unknown as jest.Mock).mockReturnValue({ beaches });
+    mockUseBeachStore.mockReturnValue({ beaches });
 
     const { getByText } = renderWithNavigation(<ResultScreen />);
 

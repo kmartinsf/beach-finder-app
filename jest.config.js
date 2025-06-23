@@ -1,15 +1,13 @@
 module.exports = {
-  preset: 'react-native',
-  moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
+  preset: 'jest-expo',
+  setupFiles: ['./jest.setup.js'],
+  transformIgnorePatterns: [
+    'node_modules/(?!(expo|@expo|expo-router|expo-modules-core|expo-asset|expo-constants|expo-linking|react-native|@react-native|react-navigation|@react-navigation)/)',
+  ],
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/$1',
-    '^@firebase/(.*)$': '<rootDir>/node_modules/@firebase/$1',
   },
-  transformIgnorePatterns: [
-    'node_modules/(?!(@react-native|react-native|react-native-safe-area-context|@firebase)/)',
-  ],
-  setupFiles: [
-    './jest.setup.js'
-  ],
-  setupFilesAfterEnv: ['@testing-library/jest-native/extend-expect'],
+  transform: {
+    '^.+\\.[jt]sx?$': 'babel-jest',
+  },
 };
