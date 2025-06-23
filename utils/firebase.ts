@@ -1,1 +1,1 @@
-export * from "@/utils/internal/firebase";
+export * from "./internal/firebase";
