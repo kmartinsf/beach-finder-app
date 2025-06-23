@@ -7,7 +7,7 @@ import { useEffect } from "react";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import "react-native-reanimated";
 
-import { fetchQuestions, seedDatabase } from "@/utils/internal/firebase";
+import { fetchQuestions, seedDatabase } from "@/utils/firebase";
 import {
   LeagueSpartan_400Regular,
   LeagueSpartan_500Medium,
