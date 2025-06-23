@@ -2,9 +2,8 @@ jest.mock("@/store/question", () => ({
   useQuestionStore: jest.fn(),
 }));
 
-jest.mock("@/utils/firebase", () => ({
-  findBeaches: jest.fn().mockResolvedValue([]),
-}));
+jest.mock("@/utils/firebase");
+
 
 import QuizModal from "@/components/QuizModal";
 import { fireEvent, render } from "@testing-library/react-native";

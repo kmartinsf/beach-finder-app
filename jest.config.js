@@ -7,9 +7,9 @@ module.exports = {
     "node_modules/(?!(expo|@expo|expo-router|expo-modules-core|expo-asset|expo-constants|expo-linking|react-native|@react-native|react-navigation|@react-navigation)/)"
   ],
   moduleNameMapper: {
-    "^@/(.*)$": path.resolve(__dirname, "./$1")
+    "^@/(.*)$": "<rootDir>/$1"
   },
-  moduleDirectories: ["node_modules", "<rootDir>"],
+  moduleDirectories: ["node_modules", path.resolve(__dirname)],
   transform: {
     "^.+\\.[jt]sx?$": "babel-jest"
   }
