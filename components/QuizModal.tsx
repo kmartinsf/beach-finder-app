@@ -9,11 +9,11 @@ import {
 import Modal from "react-native-modal";
 import { colours } from "../constants/colours";
 import { fontStyles } from "../constants/fonts";
-import { findBeaches } from "../firebase";
 import { useBeachStore } from "../store/beaches";
 import { useQuestionStore } from "../store/question";
 import { QuizModalProps } from "../types/quiz";
 import Button from "./Button";
+import { findBeaches } from "@/firebase";
 
 const QuizModal = ({ isVisible, onClose }: QuizModalProps) => {
   const [currentStep, setCurrentStep] = useState(0);
