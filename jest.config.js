@@ -9,7 +9,7 @@ module.exports = {
   moduleNameMapper: {
     "^@/(.*)$": "<rootDir>/$1"
   },
-  moduleDirectories: ["node_modules", path.join(__dirname, ".")],
+  moduleDirectories: ["node_modules", "<rootDir>"],
   transform: {
     "^.+\\.[jt]sx?$": "babel-jest"
   }
