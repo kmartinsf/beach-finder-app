@@ -6,8 +6,8 @@ import { StatusBar } from "expo-status-bar";
 import { useEffect } from "react";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import "react-native-reanimated";
-import { fetchQuestions, seedDatabase } from "../firebase";
 
+import { fetchQuestions, seedDatabase } from "@/firebase";
 import {
   LeagueSpartan_400Regular,
   LeagueSpartan_500Medium,
@@ -45,6 +45,7 @@ export default function RootLayout() {
       if (!fontsLoaded) return;
 
       await initializeDatabase();
+
       await SplashScreen.hideAsync();
     };
     prepare();

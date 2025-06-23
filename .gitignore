@@ -41,4 +41,10 @@ app-example
 
 firebase.ts
 
-android/app/my-upload-key.keystore
+android/app/google-services.json
+
+build
+build/generated
+build/intermediates
+build/outputs
+build/tmp

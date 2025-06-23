@@ -8,6 +8,7 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
 
@@ -15,7 +16,11 @@ jobs:
         with:
           node-version: 20
 
-      - run: npm install
+      - name: Install dependencies
+        run: npm install --legacy-peer-deps
 
-      - run: npm run lint -- --fix
-      - run: npm run test
+      - name: Run lint
+        run: npm run lint
+
+      - name: Run tests
+        run: npm run test
