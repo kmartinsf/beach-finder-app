@@ -1,3 +1,4 @@
+import { findBeaches } from "@/utils/firebase";
 import { router } from "expo-router";
 import React, { useEffect, useState } from "react";
 import { Animated, StyleSheet, Text, View } from "react-native";
@@ -13,7 +14,6 @@ import { useBeachStore } from "../store/beaches";
 import { useQuestionStore } from "../store/question";
 import { QuizModalProps } from "../types/quiz";
 import Button from "./Button";
-import { findBeaches } from "@/firebase";
 
 const QuizModal = ({ isVisible, onClose }: QuizModalProps) => {
   const [currentStep, setCurrentStep] = useState(0);

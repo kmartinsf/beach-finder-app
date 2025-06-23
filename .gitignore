@@ -38,6 +38,6 @@ yarn-error.*
 
 app-example
 
-firebase.ts
+utils/firebase.ts
 
 android/app/google-services.json
