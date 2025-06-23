@@ -10,6 +10,20 @@ jest.mock("react-native-screens", () => ({
   useScreens: jest.fn(),
 }));
 
+const mockNavigate = jest.fn();
+
+jest.mock("@react-navigation/native", () => {
+  const actualNav = jest.requireActual("@react-navigation/native");
+  return {
+    ...actualNav,
+    useNavigation: () => ({
+      navigate: mockNavigate,
+    }),
+  };
+});
+
+global.mockNavigate = mockNavigate;
+
 // Mock react-native-reanimated
 jest.mock("react-native-reanimated", () => {
   const Reanimated = require("react-native-reanimated/mock");
