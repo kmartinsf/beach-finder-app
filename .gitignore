@@ -38,13 +38,7 @@ yarn-error.*
 
 app-example
 
-
 firebase.ts
 
+android
 android/app/google-services.json
-
-build
-build/generated
-build/intermediates
-build/outputs
-build/tmp
