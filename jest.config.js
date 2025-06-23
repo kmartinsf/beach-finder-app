@@ -8,7 +8,7 @@ module.exports = {
   ],
   moduleNameMapper: {
     "^@/(.*)$": "<rootDir>/$1",
-    "^@/utils/firebase$": "<rootDir>/tests/__mocks__/firebase.ts",
+    "^@/utils/firebase$": "<rootDir>/tests/__mocks__/utils/firebase.ts",
   },
   moduleDirectories: ["node_modules", path.resolve(__dirname)],
   transform: {
