@@ -12,6 +12,7 @@ module.exports = {
     "^@/utils/internal/firebase$":
       "<rootDir>/tests/__mocks__/utils/firebase.ts",
   },
+
   moduleDirectories: ["node_modules", path.resolve(__dirname)],
   transform: {
     "^.+\\.[jt]sx?$": "babel-jest",
