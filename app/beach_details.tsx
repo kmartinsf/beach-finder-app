@@ -13,7 +13,7 @@ const BeachDetails = () => {
   const { beaches, favouriteBeaches, toggleFavouriteBeach } = useBeachStore();
   const [isFavourite, setIsFavourite] = useState(false);
 
-  const beach = beaches.find((b) => b.id === beachId);
+  const beach = [...beaches, ...favouriteBeaches].find((b) => b.id === beachId);
 
   if (!beach) {
     return (

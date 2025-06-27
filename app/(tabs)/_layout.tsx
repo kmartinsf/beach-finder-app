@@ -26,6 +26,7 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => (
             <FontAwesome size={24} name="home" color={color} />
           ),
+          tabBarActiveTintColor: "#6D8058FF",
         }}
       />
       <Tabs.Screen
@@ -35,6 +36,7 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => (
             <FontAwesome5 size={24} name="tint" color={color} />
           ),
+          tabBarActiveTintColor: "#1bc6ff",
         }}
       />
       <Tabs.Screen
@@ -44,6 +46,7 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => (
             <FontAwesome5 size={24} name="star" color={color} />
           ),
+          tabBarActiveTintColor: "#FFD700",
         }}
       />
     </Tabs>
