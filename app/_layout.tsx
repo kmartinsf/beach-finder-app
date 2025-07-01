@@ -7,12 +7,13 @@ import { useEffect } from "react";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import "react-native-reanimated";
 
-import { fetchQuestions, seedDatabase } from "@/utils/firebase";
 import {
   LeagueSpartan_400Regular,
   LeagueSpartan_500Medium,
   LeagueSpartan_700Bold,
 } from "@expo-google-fonts/league-spartan";
+
+import { fetchQuestions, seedDatabase } from "@/utils/internal/firebase";
 
 SplashScreen.preventAutoHideAsync();
 
@@ -42,12 +43,17 @@ export default function RootLayout() {
 
   useEffect(() => {
     const prepare = async () => {
-      if (!fontsLoaded) return;
+      try {
+        if (!fontsLoaded) return;
 
-      await initializeDatabase();
-
-      await SplashScreen.hideAsync();
+        await initializeDatabase();
+      } catch (error) {
+        throw error;
+      } finally {
+        await SplashScreen.hideAsync();
+      }
     };
+
     prepare();
   }, [fontsLoaded]);
 
