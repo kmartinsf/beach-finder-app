@@ -1,4 +1,4 @@
-import { findBeaches } from "@/utils/firebase";
+import { findBeaches } from "@/utils/internal/firebase";
 import { router } from "expo-router";
 import React, { useEffect, useState } from "react";
 import { Animated, StyleSheet, Text, View } from "react-native";
