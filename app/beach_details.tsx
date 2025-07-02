@@ -69,7 +69,7 @@ const BeachDetails = () => {
           </Text>
         </View>
 
-        {/* <View style={styles.descriptionContainer}>
+        <View style={styles.infoContainer}>
           <Text style={styles.descriptionTitle}>
             Descrição:{" "}
             <Text
@@ -80,7 +80,7 @@ const BeachDetails = () => {
               {beach.description}
             </Text>
           </Text>
-        </View> */}
+        </View>
       </View>
     </SafeAreaView>
   );
@@ -109,7 +109,7 @@ const styles = StyleSheet.create({
     backgroundColor: colours.primary,
     padding: 15,
     borderRadius: 8,
-    marginBottom: 15,
+    marginVertical: 8,
   },
   infoTitle: {
     ...fontStyles.bold18,
@@ -120,20 +120,15 @@ const styles = StyleSheet.create({
     ...fontStyles.medium18,
     color: colours.black,
   },
-  descriptionContainer: {
-    backgroundColor: colours.primary,
-    padding: 15,
-    borderRadius: 8,
-    marginTop: 20,
-  },
+
   descriptionTitle: {
     ...fontStyles.bold18,
-    color: colours.white,
+    color: colours.black,
     marginBottom: 10,
   },
   description: {
     ...fontStyles.medium18,
-    color: colours.white,
+    color: colours.black,
     lineHeight: 24,
   },
   errorText: {
