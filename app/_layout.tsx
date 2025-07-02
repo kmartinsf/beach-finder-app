@@ -13,22 +13,21 @@ import {
   LeagueSpartan_700Bold,
 } from "@expo-google-fonts/league-spartan";
 
-import { fetchQuestions, seedDatabase } from "@/utils/internal/firebase";
+import { fetchQuestions, repopulateDatabase } from "@/utils/internal/firebase";
 
 SplashScreen.preventAutoHideAsync();
 
 const initializeDatabase = async () => {
   try {
     const isSeeded = await AsyncStorage.getItem("@isDatabaseSeeded");
+    const forceRepopulate = false;
 
-    if (isSeeded === "true") {
+    if (forceRepopulate || isSeeded !== "true") {
+      await repopulateDatabase();
+      await AsyncStorage.setItem("@isDatabaseSeeded", "true");
+    } else {
       await fetchQuestions();
-      return;
     }
-
-    await seedDatabase();
-    await fetchQuestions();
-    await AsyncStorage.setItem("@isDatabaseSeeded", "true");
   } catch (error) {
     throw error;
   }
