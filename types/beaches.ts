@@ -6,4 +6,5 @@ export type Beach = {
   waves: boolean;
   waterTemp: string;
   favourite: boolean;
+  trail: boolean;
 }
