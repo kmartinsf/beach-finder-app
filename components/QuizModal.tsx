@@ -14,11 +14,13 @@ import { useBeachStore } from "../store/beaches";
 import { useQuestionStore } from "../store/question";
 import { QuizModalProps } from "../types/quiz";
 import Button from "./Button";
+import Loader from "./Loader";
 
 const QuizModal = ({ isVisible, onClose }: QuizModalProps) => {
   const [currentStep, setCurrentStep] = useState(0);
   const [selectedAnswers, setSelectedAnswers] = useState<string[]>([]);
   const { questions, setSelectedAnswers: saveAnswers } = useQuestionStore();
+  const [loading, setLoading] = useState(false);
 
   const { setBeaches } = useBeachStore();
 
@@ -68,18 +70,24 @@ const QuizModal = ({ isVisible, onClose }: QuizModalProps) => {
 
   const handleSubmitQuestions = async () => {
     try {
-      saveAnswers(selectedAnswers);
+      setLoading(true);
 
+      saveAnswers(selectedAnswers);
       const beaches = await findBeaches(selectedAnswers);
       setBeaches(beaches);
 
+      onClose();
+
       setSelectedAnswers([]);
       setCurrentStep(0);
-      onClose();
+
+      await new Promise((resolve) => setTimeout(resolve, 1000));
 
       router.push("/result");
     } catch (error) {
       throw error;
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -97,6 +105,10 @@ const QuizModal = ({ isVisible, onClose }: QuizModalProps) => {
         </View>
       </Modal>
     );
+  }
+
+  if (loading) {
+    return <Loader loading={true} />;
   }
 
   return (
@@ -174,23 +186,21 @@ const QuizModal = ({ isVisible, onClose }: QuizModalProps) => {
                   </Button>
                 )}
 
-                <Button
-                  onPress={() => {
-                    if (currentStep === questions.length - 1) {
-                      handleSubmitQuestions();
-                    } else if (selectedAnswers[currentStep]) {
-                      setCurrentStep(currentStep + 1);
-                    }
-                  }}
-                  disabled={selectedAnswers.length !== questions.length}
-                  style={styles.nextButton}
-                >
-                  <Text style={styles.navigationButtonText}>
-                    {currentStep === questions.length - 1
-                      ? "Finalizar"
-                      : "Continuar"}
-                  </Text>
-                </Button>
+                {currentStep === questions.length - 1 && (
+                  <Button
+                    onPress={() => {
+                      if (currentStep === questions.length - 1) {
+                        handleSubmitQuestions();
+                      } else if (selectedAnswers[currentStep]) {
+                        setCurrentStep(currentStep + 1);
+                      }
+                    }}
+                    disabled={selectedAnswers.length !== questions.length}
+                    style={styles.nextButton}
+                  >
+                    <Text style={styles.navigationButtonText}>Finalizar</Text>
+                  </Button>
+                )}
               </View>
             </View>
           </View>
