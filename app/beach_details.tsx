@@ -1,3 +1,5 @@
+import Button from "@/components/Button";
+import OpenMap from "@/components/OpenMap";
 import { FontAwesome } from "@expo/vector-icons";
 import { useLocalSearchParams } from "expo-router";
 import React, { useEffect, useState } from "react";
@@ -70,16 +72,21 @@ const BeachDetails = () => {
         </View>
 
         <View style={styles.infoContainer}>
-          <Text style={styles.descriptionTitle}>
+          <Text style={styles.infoTitle}>
             Descrição:{" "}
             <Text
-              style={styles.description}
+              style={styles.infoValue}
               numberOfLines={3}
               ellipsizeMode="tail"
             >
               {beach.description}
             </Text>
           </Text>
+        </View>
+        <View style={styles.infoContainer}>
+          <Button onPress={() => OpenMap(beach.name)}>
+            <Text style={styles.infoTitle}>Ver no mapa</Text>
+          </Button>
         </View>
       </View>
     </SafeAreaView>
@@ -119,17 +126,6 @@ const styles = StyleSheet.create({
   infoValue: {
     ...fontStyles.medium18,
     color: colours.black,
-  },
-
-  descriptionTitle: {
-    ...fontStyles.bold18,
-    color: colours.black,
-    marginBottom: 10,
-  },
-  description: {
-    ...fontStyles.medium18,
-    color: colours.black,
-    lineHeight: 24,
   },
   errorText: {
     ...fontStyles.title,
