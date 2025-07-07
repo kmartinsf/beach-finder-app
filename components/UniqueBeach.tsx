@@ -29,8 +29,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   beachNameTitle: {
-    ...fontStyles.title,
-    marginBottom: 8,
+    ...fontStyles.bold20,
   },
 });
 
