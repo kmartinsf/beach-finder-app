@@ -65,8 +65,8 @@ export const fontStyles = {
     ...fonts.medium,
     fontSize: 22,
   },
-  bold22: {
+  bold20: {
     ...fonts.bold,
-    fontSize: 22,
+    fontSize: 20,
   },
 };
