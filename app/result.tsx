@@ -5,7 +5,6 @@ import React, { useCallback, useEffect, useState } from "react";
 import { FlatList, StyleSheet, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import Button from "../components/Button";
-import Loader from "../components/Loader";
 import UniqueBeach from "../components/UniqueBeach";
 import { colours } from "../constants/colours";
 import { fontStyles } from "../constants/fonts";
@@ -22,18 +21,10 @@ const ResultScreen = () => {
   const [isResultModalVisible, setResultModalVisible] = useState(false);
   const [randomBeach, setRandomBeach] = useState(true);
   const navigation = useNavigation<NavigationProp>();
-  const [loading, setLoading] = useState(true);
   const [navigating, setNavigating] = useState(false);
 
   useEffect(() => {
-    if (allBeaches.length > 0) {
-      setBeaches(allBeaches);
-      setTimeout(() => {
-        setLoading(false);
-      }, 2000);
-    } else {
-      setLoading(false);
-    }
+    setBeaches(allBeaches);
   }, [allBeaches]);
 
   const getRandomBeach = () => {
@@ -66,9 +57,7 @@ const ResultScreen = () => {
 
   return (
     <SafeAreaView style={styles.container}>
-      {loading && allBeaches.length > 0 ? (
-        <Loader loading={loading} />
-      ) : beaches.length === 0 ? (
+      {beaches.length === 0 ? (
         <View style={styles.emptyContainer}>
           <Text style={styles.emptyText}>Nenhuma praia encontrada!</Text>
           <Text style={styles.emptySubtext}>
@@ -87,7 +76,6 @@ const ResultScreen = () => {
       ) : (
         <>
           <Text style={styles.questionTitle}>Que tal:</Text>
-          {navigating && <Loader loading={loading} />}
           <FlatList
             style={{ marginVertical: 20 }}
             data={beaches}
@@ -100,7 +88,7 @@ const ResultScreen = () => {
                 onPress={() => goToBeachDetails(item)}
                 testID="unique-beach"
               >
-                <Text>{item.name}</Text>
+                {item.name}
               </UniqueBeach>
             )}
           />
@@ -108,7 +96,7 @@ const ResultScreen = () => {
           {randomBeach && (
             <View style={styles.randomBeachArea}>
               <Text style={styles.randomBeachText}>Não quer escolher?</Text>
-              <Button onPress={getRandomBeach}>
+              <Button onPress={getRandomBeach} style={styles.randomBeachButton}>
                 <Text style={styles.randomBeachButtonText}>
                   Sorteie uma praia
                 </Text>
@@ -175,13 +163,15 @@ const styles = StyleSheet.create({
     color: colours.black,
   },
 
+  randomBeachButton: {
+    borderRadius: 8,
+    backgroundColor: colours.primary,
+    padding: 12,
+  },
+
   randomBeachButtonText: {
     ...fontStyles.medium22,
     color: colours.white,
-    paddingVertical: 8,
-    paddingHorizontal: 8,
-    borderRadius: 8,
-    backgroundColor: colours.primary,
   },
 });
 
