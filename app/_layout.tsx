@@ -25,9 +25,8 @@ const initializeDatabase = async () => {
     if (forceRepopulate || isSeeded !== "true") {
       await repopulateDatabase();
       await AsyncStorage.setItem("@isDatabaseSeeded", "true");
-    } else {
-      await fetchQuestions();
     }
+    await fetchQuestions();
   } catch (error) {
     throw error;
   }
