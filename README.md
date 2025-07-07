@@ -57,6 +57,8 @@ Uma aba dedicada que exibe informações atualizadas sobre a qualidade da água 
 ## 🛠️ Tecnologias Utilizadas
 
 -   React Native
+
+-   Firebase
     
 -   Expo
     
