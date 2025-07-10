@@ -1,4 +1,4 @@
-package com.anonymous.beachfinderapp
+package com.achoumane.app
 import expo.modules.splashscreen.SplashScreenManager
 
 import android.os.Build

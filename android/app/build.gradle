@@ -87,9 +87,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.anonymous.beachfinderapp'
+    namespace "com.achouman"
     defaultConfig {
-        applicationId 'com.anonymous.beachfinderapp'
+        applicationId 'com.achoumane.app'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

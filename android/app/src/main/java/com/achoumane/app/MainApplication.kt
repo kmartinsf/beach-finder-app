@@ -1,4 +1,4 @@
-package com.anonymous.beachfinderapp
+package com.achoumane.app
 
 import android.app.Application
 import android.content.res.Configuration
