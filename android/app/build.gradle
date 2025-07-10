@@ -54,7 +54,7 @@ android {
 
             def buildTypeName = variant.buildType.name.capitalize()
             
-            def newApkName = "AchouMane-${buildTypeName}-v${versionName}-${formattedDate}.apk"
+            def newApkName = "achou-mane-${buildTypeName}-v${versionName}-${formattedDate}.apk"
 
             output.outputFileName = newApkName
         }
