@@ -11,14 +11,7 @@
     "plugins": [
       "expo-router",
       "react-native-map-link",
-      [
-        "expo-splash-screen",
-        {
-          "image": "./assets/images/splash.png",
-          "backgroundColor": "#B1C29E",
-          "imageWidth":200
-        }
-      ],
+
       "expo-font",
       "expo-web-browser"
     ],
