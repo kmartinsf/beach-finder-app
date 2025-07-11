@@ -100,9 +100,7 @@ const QuizModal = ({ isVisible, onClose }: QuizModalProps) => {
   if (!questions || questions.length === 0) {
     return (
       <Modal isVisible={isVisible} onBackdropPress={onClose}>
-        <View style={styles.loadingContainer}>
-          <Text style={styles.loadingText}>Nenhuma pergunta disponível.</Text>
-        </View>
+        <Loader loading={true} />
       </Modal>
     );
   }
