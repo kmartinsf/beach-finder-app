@@ -19,7 +19,7 @@
       "typedRoutes": true
     },
     "android": {
-      "package": "com.achoumane.app",
+      "package": "com.beachfinder.reactnative",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#B1C29E"

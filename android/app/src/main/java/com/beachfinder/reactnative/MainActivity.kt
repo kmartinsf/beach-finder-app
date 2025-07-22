@@ -1,4 +1,5 @@
-package com.achoumane.app
+package com.beachfinder.reactnative
+
 import expo.modules.splashscreen.SplashScreenManager
 
 import android.os.Build
