@@ -1,14 +1,76 @@
+import QuizModal from "@/components/QuizModal";
 import { useFocusEffect } from "@react-navigation/native";
-import React, { useCallback, useState } from "react";
-import { StyleSheet, Text } from "react-native";
+import React, { useCallback, useEffect, useState } from "react";
+import { Alert, StyleSheet, Text } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import Button from "../../components/Button";
 import { colours } from "../../constants/colours";
 import { fontStyles } from "../../constants/fonts";
-import QuizModal from "@/components/QuizModal";
+
+import { PermissionsAndroid } from "react-native";
+PermissionsAndroid.request(PermissionsAndroid.PERMISSIONS.POST_NOTIFICATIONS);
+
+import messaging from "@react-native-firebase/messaging";
 
 const HomeScreen = () => {
   const [isModalVisible, setModalVisible] = useState(false);
+
+  const requestToken = async () => {
+    try {
+      await messaging().registerDeviceForRemoteMessages();
+      const token = await messaging().getToken();
+      console.log("token", token);
+    } catch (error) {
+      throw error;
+    }
+  };
+
+  const requestNotificationPermission = async () => {
+    try {
+      const res = await PermissionsAndroid.request(
+        PermissionsAndroid.PERMISSIONS.POST_NOTIFICATIONS
+      );
+
+      if (res === PermissionsAndroid.RESULTS.GRANTED) {
+        requestToken();
+      } else {
+        Alert.alert(
+          "Permissão de notificações negada",
+          "Você não receberá notificações."
+        );
+      }
+    } catch (error) {}
+  };
+
+  useEffect(() => {
+    requestNotificationPermission();
+  }, []);
+
+
+  useEffect(() => {
+    const unsubscribe = messaging().onMessage(async remoteMessage => {
+      console.log("Mensagem recebida em primeiro plano:", remoteMessage);
+      Alert.alert(
+        "Nova notificação",
+        remoteMessage.notification?.title || "Você tem uma nova mensagem!",
+        [
+          {
+            text: "Fechar",
+            style: "cancel",
+          },
+          {
+            text: "Ver",
+            onPress: () => {
+              console.log("Ver notificação");
+            },
+          },
+        ]
+      );
+    });
+
+    return unsubscribe;
+  }, [])
+  
 
   useFocusEffect(
     useCallback(() => {
