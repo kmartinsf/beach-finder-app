@@ -1,21 +1,9 @@
 {
   "build": {
-    "development": {
-      "developmentClient": true,
-      "distribution": "internal"
-    },
     "preview": {
+      "distribution": "internal",
       "android": {
-        "splash": {
-          "backgroundColor": "#B1C29E"
-        }
-      }
-    },
-    "production": {
-      "android": {
-        "splash": {
-          "backgroundColor": "#B1C29E"
-        }
+        "buildType": "apk"
       }
     }
   }
