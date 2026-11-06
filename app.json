@@ -1,3 +1,4 @@
+
 {
   "expo": {
     "name": "Achou, mané",
@@ -11,9 +12,9 @@
     "plugins": [
       "expo-router",
       "react-native-map-link",
-
       "expo-font",
-      "expo-web-browser"
+      "expo-web-browser",
+      "expo-asset"
     ],
     "experiments": {
       "typedRoutes": true
@@ -23,24 +24,7 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#B1C29E"
-      },
-      "queries": [
-        {
-          "intent": "android.intent.action.VIEW",
-          "data": {
-            "scheme": "geo"
-          }
-        },
-        {
-          "package": "com.google.android.apps.maps"
-        },
-        {
-          "package": "com.waze"
-        },
-        {
-          "package": "com.here.app.maps"
-        }
-      ]
+      }
     },
     "extra": {
       "router": {},
